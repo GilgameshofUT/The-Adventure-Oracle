@@ -1322,7 +1322,7 @@
                 {
                     "id": 1,
                     "name": "Encounter the Historian",
-                    "description": "Meet Elder Kor, a historian who knows much about the ancient civilization. He is a kind and wise acedemic and clearly has a love for the ancient ruins.",
+                    "description": "Meet Elder Kor, a historian who knows much about the ancient civilization. He is a kind and wise academic and clearly has a love for the ancient ruins.",
                     "minScene": 1
                 },
                 {
@@ -1581,5 +1581,5 @@
                   ]
                         }
         ],
-        "resolution": "By know you have uncovered the dark secret behind this place and established that what they are doing is morally compormised. You cannot let it continue. What are your options? A dramatic speech that turns it all around? Cold logic? A show of force? Time travel to get some humpback whales? What kind of support does Rike have? Does he have super human abilities? Perhaps a beautiful woman has a role to play."
+        "resolution": "By now you have uncovered the dark secret behind this place and established that what they are doing is morally compromised. You cannot let it continue. What are your options? A dramatic speech that turns it all around? Cold logic? A show of force? Time travel to get some humpback whales? What kind of support does Rike have? Does he have superhuman abilities? Perhaps a beautiful woman has a role to play."
     }

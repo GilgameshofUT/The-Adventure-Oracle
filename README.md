@@ -7,7 +7,9 @@ The download a copy of this repository to a folder on your hard drive.
 Open a command line and go to the folder where you saved the files from this repository.
 
 Run:
-> python adventure_oracle.py
+```
+python adventure_oracle.py
+```
 
 That should be it.
 

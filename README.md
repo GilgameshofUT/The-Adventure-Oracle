@@ -3,7 +3,7 @@
 This is a pretty simple python script really. You can find instructions to install python at https://www.python.org/.
 
 The download a copy of this repository to a folder on your hard drive.
-Click on the green Code button and select download zip will work.
+Click on the green Code button and select download zip will work. Or click here: https://github.com/GilgameshofUT/The-Adventure-Oracle/archive/refs/heads/main.zip
 
 Open a command line and go to the folder where you saved the files from this repository.
 

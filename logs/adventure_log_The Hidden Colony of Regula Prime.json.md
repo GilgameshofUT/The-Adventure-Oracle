@@ -1,5 +1,3 @@
----
-
 >[!Adventure_Oracle] 2024-07-28 21:50:05
 
 # Adventure Oracle

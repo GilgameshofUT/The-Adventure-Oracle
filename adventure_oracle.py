@@ -39,7 +39,7 @@ class AdventureOracle:
             pickle.dump(state, f)
 
     def initialize_game(self):
-        self.start_new_entry()
+        self.current_entry=""
         self.output("# Adventure Oracle\n")
         self.output(f"## First Scene\n{self.data['firstScene']['description']}\n")
         

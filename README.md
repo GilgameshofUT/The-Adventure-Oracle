@@ -7,7 +7,7 @@ The download a copy of this repository to a folder on your hard drive.
 Open a command line and go to the folder where you saved the files from this repository.
 
 Run:
-python adventure_oracle.py
+> python adventure_oracle.py
 
 That should be it.
 
@@ -17,7 +17,7 @@ It has two two starting adventures currently. I will be adding more as time perm
 
 One is a space opera fit for a crew of explorers from a 1960s TV show.
 
-The other is a horror murder mystery "Tockley Manor" by Tana Pigeon of Word Mill Games published in Mythic Magazine Volume 11. Used with permission.
+The other is a horror murder mystery "Tockley Manor" by Tana Pigeon of https://WordMillGames.com published in Mythic Magazine Volume 11. Used with permission.
 
 # So What does it do?
 

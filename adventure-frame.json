@@ -1,0 +1,243 @@
+{
+    "firstScene": {
+      "description": "The first Scene"
+    },
+    "threads": [
+      {
+        "id": 1,
+        "name": "Thread1"
+      }
+    ],
+    "characters": [
+      {
+        "id": 1,
+        "name": "Person1",
+        "description": "Description"
+      },
+      {
+        "id": 2,
+        "name": "Person2",
+        "description": ""
+      },
+      {
+        "id": 3,
+        "name": "Person3",
+        "description": ""
+      },
+      {
+        "id": 4,
+        "name": "Person4",
+        "description": ""
+      }
+    ],
+    "regions": [
+      {
+        "id": 1,
+        "name": "Region1",
+        "isStartingRegion": true,
+        "description": "A Nice Place",
+        "locations": [
+          {
+            "id": 1,
+            "name": "Place1",
+            "description": null,
+            "minScene": 1,
+            "newRegion": null
+          },
+          {
+            "id": 2,
+            "name": "Place2",
+            "description": null,
+            "minScene": 2,
+            "newRegion": null
+          }
+        ],
+        "encounters": [
+          {
+            "id": 1,
+            "name": "Encounter1",
+            "description": null,
+            "minScene": 1,
+            "newRegion": null
+          },
+          {
+            "id": 2,
+            "name": "Encounter2",
+            "description": null,
+            "minScene": 1,
+            "newRegion": "Region2"
+          }
+        ],
+        "objects": [
+          {
+            "id": 1,
+            "name": "Object1",
+            "description": null,
+            "minScene": 1
+          },
+          {
+            "id": 2,
+            "name": "Object2",
+            "description": null,
+            "minScene": 1
+          }
+        ],
+        "keyedScenes": [
+          {
+            "id": 1,
+            "name": "Key Scene 1",
+            "triggerPercent": 20,
+            "minScene": 3,
+            "description": "Description goes here",
+            "newRegion": null
+          },
+          {
+            "id": 2,
+            "name": "Key Scene 2",
+            "triggerNumber": 7,
+            "minScene": 4,
+            "description": "Description goes here",
+            "newRegion": "Region3"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Region2",
+        "description": "A Nice Place",
+        "locations": [
+          {
+            "id": 1,
+            "name": "Place1",
+            "description": null,
+            "minScene": 1
+          },
+          {
+            "id": 2,
+            "name": "Place2",
+            "description": null,
+            "minScene": 1
+          }
+        ],
+        "encounters": [
+          {
+            "id": 1,
+            "name": "Encounter1",
+            "description": null,
+            "minScene": 1,
+            "newRegion": null
+          },
+          {
+            "id": 2,
+            "name": "Encounter2",
+            "description": null,
+            "minScene": 1,
+            "newRegion": null
+          }
+        ],
+        "objects": [
+          {
+            "id": 1,
+            "name": "Object1",
+            "description": null,
+            "minScene": 1
+          },
+          {
+            "id": 2,
+            "name": "Object2",
+            "description": null,
+            "minScene": 1
+          }
+        ],
+        "keyedScenes": [
+          {
+            "id": 1,
+            "name": "Key Scene 1",
+            "triggerPercent": 20,
+            "minScene": 3,
+            "description": "Description goes here",
+            "newRegion": null
+          },
+          {
+            "id": 2,
+            "name": "Key Scene 2",
+            "triggerNumber": 7,
+            "minScene": 4,
+            "description": "Description goes here",
+            "newRegion": "Region3"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Region3",
+        "isStartingRegion": false,
+        "description": null,
+        "locations": [
+          {
+            "id": 1,
+            "name": "Expected",
+            "description": null,
+            "minScene": null
+          },
+          {
+            "id": 2,
+            "name": "Expected",
+            "description": null,
+            "minScene": null
+          }
+        ],
+        "encounters": [
+          {
+            "id": 1,
+            "name": "None",
+            "description": null,
+            "minScene": null,
+            "newRegion": null
+          },
+          {
+            "id": 2,
+            "name": "None",
+            "description": null,
+            "minScene": null,
+            "resolutionPossible": true,
+            "newRegion": null
+          }
+      ],
+      "objects": [
+        {
+          "id": 1,
+          "name": "None",
+          "description": "",
+          "minScene": null
+        },
+        {
+          "id": 2,
+          "name": "Expected",
+          "description": "",
+          "minScene": null
+        }
+      ],
+      "keyedScenes": [
+        {
+          "id": 1,
+          "name": "Key Scene 1",
+          "triggerPercent": 20,
+          "minScene": 3,
+          "description": null,
+          "newRegion": null
+        },
+        {
+          "id": 2,
+          "name": "The big ending",
+          "triggerPercent": 20,
+          "minScene": 5,
+          "description": null,
+          "resolutionPossible": true,
+          "newRegion": null
+        }
+      ]
+    }],
+    "resolution": "The End. \n\nOr maybe you just want to give advice on how to select and deal with an ending to the adventure."
+}
+

@@ -1,0 +1,847 @@
+{
+    "firstScene": {
+      "description": "The first Scene should involve your Character arriving in the isolated New England town of Closport. A sleepy village with fewer than 5,000 people, Closport was once a thriving wine making community. That was many years ago, however. These days the place is slowly withering. A murder has taken place and you are here to help."
+    },
+    "threads": [
+      {
+        "id": 1,
+        "name": "Get to the bottom of the murder"
+      }
+    ],
+    "characters": [
+      {
+        "id": 1,
+        "name": "Francis Herrera",
+        "description": "Closport Chief of Police"
+      },
+      {
+        "id": 2,
+        "name": "Ann Sharpe",
+        "description": "Proprietor of The Steamport Inn"
+      },
+      {
+        "id": 3,
+        "name": "Zane Hoxel",
+        "description": "Owner of Hoxel's Farm"
+      },
+      {
+        "id": 4,
+        "name": "Closport Citizen",
+        "description": "Generic citizen of Closport"
+      }
+    ],
+    "regions": [
+      {
+        "id": 1,
+        "name": "Closport",
+        "isStartingRegion": true,
+        "description": "A sleepy village with fewer than 5,000 people, Closport was once a thriving wine making community. That was many years ago, however. These days the place is slowly withering.",
+        "locations": [
+          {
+            "id": 1,
+            "name": "Expected",
+            "description": "An Element listing under a Category can simply say 'Expected'. This Category Element represents the mundane in your Region. As your Character enters a Region and explores, you will have expectations of what you will find: dark hallways in a dungeon, tangles of vines in a forest, enemy henchman patrolling a villain's lair. A Category result of 'Expected' produces just that, what you most expect for that Category.",
+            "minScene": null
+          },
+          {
+            "id": 2,
+            "name": "Public Space",
+            "description": "This can be any expected, outdoor public space in town such as a sidewalk, an alley between buildings, a stone bench, an overlook of the ocean, etc.",
+            "minScene": null
+          },
+          {
+            "id": 3,
+            "name": "Active Shop",
+            "description": "This is a working store in Closport. Most of the shops that are active sell items useful to local citizens, such as food and goods, clothing, and fishing and hunting equipment. There may also be some curio type shops, such as antiques, as well as a couple of small restaurants.",
+            "minScene": null
+          },
+          {
+            "id": 4,
+            "name": "Town Square",
+            "description": "This is the center of Closport, a circular area ringed by public buildings. There is a small park in the middle of the town square, a grassy spot with a few trees and benches.",
+            "minScene": null
+          },
+          {
+            "id": 5,
+            "name": "Steamport Inn",
+            "description": "This is the only hotel in Closport, an old two-story house that's been renovated into an inn by its owner Ann Sharpe. The Fate Question Odds of her being easily found at the front desk during the day or early evening is Very Likely.",
+            "minScene": null
+          },
+          {
+            "id": 6,
+            "name": "Police station",
+            "description": "The Closport Police Station is a small storefront with a single office inside. Closport's police chief, Francis Herrera, is also the town's only police officer. The Fate Question Odds of him being in the station during normal working hours is Very Likely.",
+            "minScene": null
+          },
+          {
+            "id": 7,
+            "name": "Public Space",
+            "description": "This can be any expected, outdoor public space in town such as a sidewalk, an alley between buildings, a stone bench, an overlook of the ocean, etc.",
+            "minScene": 2
+          },
+          {
+            "id": 8,
+            "name": "Expected",
+            "description": "An Element listing under a Category can simply say 'Expected.' This Category Element represents the mundane in your Region. As your Character enters a Region and explores, you will have expectations of what you will find: dark hallways in a dungeon, tangles of vines in a forest, enemy henchman patrolling a villain's lair. A Category result of 'Expected' produces just that, what you most expect for that Category.",
+            "minScene": 2
+          },
+          {
+            "id": 9,
+            "name": "Empty Storefront",
+            "description": "An abandoned and boarded up shop, most likely near the center of town.",
+            "minScene": 2
+          },
+          {
+            "id": 10,
+            "name": "Docks",
+            "description": "Closport is a seaside community. Although the town's primary commerce has historically been wine making, there is some small fishing business as well. The docks are poorly maintained and reflect the town's overall poverty.",
+            "minScene": 2
+          },
+          {
+            "id": 11,
+            "name": "Expected",
+            "description": "An Element listing under a Category can simply say 'Expected.' This Category Element represents the mundane in your Region. As your Character enters a Region and explores, you will have expectations of what you will find: dark hallways in a dungeon, tangles of vines in a forest, enemy henchman patrolling a villain's lair. A Category result of 'Expected' produces just that, what you most expect for that Category.",
+            "minScene": 2
+          },
+          {
+            "id": 12,
+            "name": "Radford Regional Park",
+            "description": "This is a part of the forest bordering Closport that is maintained by the federal government. It's a wild area of thick trees and occasional streams. This is an ideal outdoor area for your Character to have an encounter or discovery.",
+            "minScene": 3
+          },
+          {
+            "id": 13,
+            "name": "Special",
+            "description": "As the name says, something amazing or unusual. Consult your Oracle for details. Maybe it's twice as large, or unusual for this setting.",
+            "minScene": 3
+          },
+          {
+            "id": 14,
+            "name": "Hoxel's Farm",
+            "description": "Hoxel Farm is a vineyard on the periphery of Closport. The property is sprawling and aged, with dying vines and a barn that is leaning to one side in its decrepitude.",
+            "minScene": 4
+          },
+          {
+            "id": 15,
+            "name": "Expected",
+            "description": "An Element listing under a Category can simply say 'Expected.' This Category Element represents the mundane in your Region. As your Character enters a Region and explores, you will have expectations of what you will find: dark hallways in a dungeon, tangles of vines in a forest, enemy henchman patrolling a villain's lair. A Category result of 'Expected' produces just that, what you most expect for that Category.",
+            "minScene": 4
+          },
+          {
+            "id": 16,
+            "name": "Random",
+            "description": "A bit more interesting than 'expected' but not something so memorable or supernatural as 'wierd'. Consult your oracle.",
+            "minScene": 5
+          },
+          {
+            "id": 17,
+            "name": "House Of The Wind",
+            "description": "The House of the Wind is a very old church in Closport. It is a little outside of town and unlikely to find unless someone is really looking. The place is a simple single story structure with a steepled roof. It's abandoned, although there may still be signs of some use. The House of the Wind is another opportunity for a site for something unusual to happen.",
+            "minScene": 5
+          },
+          {
+            "id": 18,
+            "name": "Expected",
+            "description": "An Element listing under a Category can simply say 'Expected.' This Category Element represents the mundane in your Region. As your Character enters a Region and explores, you will have expectations of what you will find: dark hallways in a dungeon, tangles of vines in a forest, enemy henchman patrolling a villain's lair. A Category result of 'Expected' produces just that, what you most expect for that Category.",
+            "minScene": 6
+          }
+        ],
+        "encounters": [
+          {
+            "id": 1,
+            "name": "None",
+            "description": null,
+            "minScene": null,
+            "newRegion": null
+          },
+          {
+            "id": 2,
+            "name": "None",
+            "description": null,
+            "minScene": null,
+            "newRegion": null
+          },
+          {
+            "id": 3,
+            "name": "Expected",
+            "description": "An Element listing under a Category can simply say 'Expected.' This Category Element represents the mundane in your Region. As your Character enters a Region and explores, you will have expectations of what you will find: dark hallways in a dungeon, tangles of vines in a forest, enemy henchman patrolling a villain's lair. A Category result of 'Expected' produces just that, what you most expect for that Category.",
+            "minScene": null,
+            "newRegion": null
+          },
+          {
+            "id": 4,
+            "name": "None",
+            "description": null,
+            "minScene": null,
+            "newRegion": null
+          },
+          {
+            "id": 5,
+            "name": "Closport Citizen",
+            "description": null,
+            "minScene": null,
+            "newRegion": null
+          },
+          {
+            "id": 6,
+            "name": "Expected",
+            "description": "An Element listing under a Category can simply say 'Expected.' This Category Element represents the mundane in your Region. As your Character enters a Region and explores, you will have expectations of what you will find: dark hallways in a dungeon, tangles of vines in a forest, enemy henchman patrolling a villain's lair. A Category result of 'Expected' produces just that, what you most expect for that Category.",
+            "minScene": null,
+            "newRegion": null
+          },
+          {
+            "id": 7,
+            "name": "None",
+            "description": null,
+            "minScene": 2,
+            "newRegion": null
+          },
+          {
+            "id": 8,
+            "name": "Francis Herrera",
+            "description": null,
+            "minScene": 2,
+            "newRegion": null
+          },
+          {
+            "id": 9,
+            "name": "Closport Citizen",
+            "description": null,
+            "minScene": 2,
+            "newRegion": null
+          },
+          {
+            "id": 10,
+            "name": "Learn About Tockley",
+            "description": "This is a special Encounter where Tockley Manor is introduced to your Character. If you have already learned about Tockley through a Keyed Scene, then your Character gets more information about the Manor in this Encounter. You'll need to determine two things: how you learn about Tockley, and what information is attached to it. The how can be answered through a Fate Question using what seems most logical given the Context. For instance, if your Character is in a shop in Closport and you roll this Encounter, you may determine that the owner of the store tells you about it. \"The woman behind the counter sets down the music box and leans forward, saying in a conspiratorial voice, 'Have you heard of Tockley Manor?'\"  Aside from Characters, you may also learn of the Manor through books or journals. After you determine how you learn about the Manor, you need to attach what you learn about it. This should contain some element of mystery or local legend to it. For inspiration, roll on the Action Meaning Tables. For instance, in our example above of the shopkeeper mentioning Tockley, the Player rolls on the Action Meaning Tables and gets \"waste\" and \"emotions\". You may interpret this to mean: \"She shakes her head mournfully. 'A sad place, really. Such a pity what happened to the Tockleys.'\"",
+            "minScene": 3,
+            "newRegion": "Tockley Manor"
+          },
+          {
+            "id": 11,
+            "name": "None",
+            "description": null,
+            "minScene": 3,
+            "newRegion": null
+          },
+          {
+            "id": 12,
+            "name": "Something To Say",
+            "description": "This is a catchall category Encounter for your Character learning something interesting, either from a Character or another source, such as a journal. What is said can be determined by asking Fate Questions or rolling on the Action Meaning Tables. Whatever is learned it should pertain to the murder, to some local strangeness, or to the next location IF you have learned of its existence yet.",
+            "minScene": 4,
+            "newRegion": null
+          },
+          {
+            "id": 13,
+            "name": "Weird Event",
+            "description": "This Encounter is meant as a catchall for something very strange happening to your Character, including something that is overtly supernatural. Roll on the Description Meaning Tables for inspiration of what the Weird Event looks like, and roll on the Action Meaning Tables for inspiration about what happens. The severity of this Encounter is up to you, based on the Context and where your Character is. For instance, if your Character is currently in Radford Regional Park and rolls this Encounter, then gets \"inform\" and \"misfortune\" on the Action Meaning Tables, maybe your Character begins to hear strange whisperings in the woods that sound like threats.",
+            "minScene": 4,
+            "newRegion": null
+          },
+          {
+            "id": 14,
+            "name": "None",
+            "description": null,
+            "minScene": 4,
+            "newRegion": null
+          },
+          {
+            "id": 15,
+            "name": "Something To Say",
+            "description": "This is a catchall category Encounter for your Character learning something interesting, either from a Character or another source, such as a journal. What is said can be determined by asking Fate Questions or rolling on the Action Meaning Tables. Whatever is learned it should pertain to the murder, to some local strangeness, or to the next location IF you have learned of its existence yet.",
+            "minScene": 5,
+            "newRegion": null
+          },
+          {
+            "id": 16,
+            "name": "None",
+            "description": null,
+            "minScene": 5,
+            "newRegion": null
+          },
+          {
+            "id": 17,
+            "name": "Weird Event",
+            "description": "This Encounter is meant as a catchall for something very strange happening to your Character, including something that is overtly supernatural. Roll on the Description Meaning Tables for inspiration of what the Weird Event looks like, and roll on the Action Meaning Tables for inspiration about what happens. The severity of this Encounter is up to you, based on the Context and where your Character is. For instance, if your Character is currently in Radford Regional Park and rolls this Encounter, then gets \"inform\" and \"misfortune\" on the Action Meaning Tables, maybe your Character begins to hear strange whisperings in the woods that sound like threats.",
+            "minScene": 6,
+            "newRegion": null
+          },
+          {
+            "id": 18,
+            "name": "None",
+            "description": null,
+            "minScene": 6,
+            "newRegion": null
+          },
+          {
+            "id": 19,
+            "name": "None",
+            "description": null,
+            "minScene": 6,
+            "newRegion": null
+          }
+        ],
+        "objects": [
+          {
+            "id": 1,
+            "name": "None",
+            "description": null,
+            "minScene": null
+          },
+          {
+            "id": 2,
+            "name": "None",
+            "description": null,
+            "minScene": null
+          },
+          {
+            "id": 3,
+            "name": "None",
+            "description": null,
+            "minScene": null
+          },
+          {
+            "id": 4,
+            "name": "None",
+            "description": null,
+            "minScene": null
+          },
+          {
+            "id": 5,
+            "name": "Expected",
+            "description": "An Element listing under a Category can simply say 'Expected.' This Category Element represents the mundane in your Region. As your Character enters a Region and explores, you will have expectations of what you will find: dark hallways in a dungeon, tangles of vines in a forest, enemy henchman patrolling a villain's lair. A Category result of 'Expected' produces just that, what you most expect for that Category.",
+            "minScene": null
+          },
+          {
+            "id": 6,
+            "name": "None",
+            "description": null,
+            "minScene": null
+          },
+          {
+            "id": 7,
+            "name": "Random",
+            "description": "A bit more interesting than 'expected' but not something so memorable or supernatural as 'wierd'. Consult your oracle.",
+            "minScene": 2
+          },
+          {
+            "id": 8,
+            "name": "Dead Body",
+            "description": "If you generate this Object for an Area, then you have discovered a new murder victim. Interpret how you find the body, and what state it's in, by the current Context and asking any Fate Questions you need to. For instance, let's say your Character is at Hoxel's Farm, rolls an Encounter of Closport Citizen, and rolls Dead Body for Object. After making some Fate Question rolls you may determine the following: Upon arriving at the farm, you look for the owner. You enter the barn and find someone standing over a dead body in the hay. Assuming you have investigated the original death that brought you to Closport, you probably know how that person died. A logical Fate Question to ask when finding a new body is, \"Did they die the same way?\" The Odds of a Yes are Sure Thing",
+            "minScene": 2
+          },
+          {
+            "id": 9,
+            "name": "Artifact",
+            "description": "This Object is meant for any unusual item you may find that adds mystery or information to the Adventure. It should pertain to the murder, to strangeness in town, or to the next area if you've learned of the place. For inspiration on what the Artifact is, roll on the Description Meaning Tables. For inspiration on what the Artifact means to the Adventure, roll on the Action Meaning Tables.",
+            "minScene": 3
+          },
+          {
+            "id": 10,
+            "name": "None",
+            "description": null,
+            "minScene": 3
+          },
+          {
+            "id": 11,
+            "name": "Journal",
+            "description": "Your Character discovers a written work, perhaps a book or personal journal, that contains useful insights. As with Artifact and Something To Say, this is an opportunity to expand on information about the murder, regions you have learned of. The Context of events that have happened so far should be taken into consideration.",
+            "minScene": 4
+          },
+          {
+            "id": 12,
+            "name": "Expected",
+            "description": "An Element listing under a Category can simply say 'Expected.' This Category Element represents the mundane in your Region. As your Character enters a Region and explores, you will have expectations of what you will find: dark hallways in a dungeon, tangles of vines in a forest, enemy henchman patrolling a villain's lair. A Category result of 'Expected' produces just that, what you most expect for that Category.",
+            "minScene": 4
+          },
+          {
+            "id": 13,
+            "name": "None",
+            "description": null,
+            "minScene": 5
+          },
+          {
+            "id": 14,
+            "name": "Special",
+            "description": "As the name says, something amazing or unusual. Consult your Oracle for details. Maybe it's twice as large, or unusual for this setting.",
+            "minScene": 5
+          },
+          {
+            "id": 15,
+            "name": "Expected",
+            "description": "An Element listing under a Category can simply say 'Expected.' This Category Element represents the mundane in your Region. As your Character enters a Region and explores, you will have expectations of what you will find: dark hallways in a dungeon, tangles of vines in a forest, enemy henchman patrolling a villain's lair. A Category result of 'Expected' produces just that, what you most expect for that Category.",
+            "minScene": 5
+          },
+          {
+            "id": 16,
+            "name": "Random",
+            "description": "A bit more interesting than 'expected' but not something so memorable or supernatural as 'wierd'. Consult your oracle.",
+            "minScene": 6
+          },
+          {
+            "id": 17,
+            "name": "None",
+            "description": null,
+            "minScene": 6
+          },
+          {
+            "id": 18,
+            "name": "None",
+            "description": null,
+            "minScene": 7
+          }
+        ],
+        "keyedScenes": [
+          {
+            "id": 1,
+            "name": "I Want To Help",
+            "triggerPercent": 20,
+            "minScene": 3,
+            "description": "An NPC approaches your Character, wanting to help with the investigation of the murder. Roll 1d10 to see who this is. On a 1-5 it is a Character from the Characters List. Roll to  Determine which one. On a 6-10 it's a new Character. Roll on the Description Meaning Tables for inspiration on a description for the Character, and roll on the Action Meaning Tables for inspiration on what the Character does or how they approach you. Add the new Character to the Characters List",
+            "newRegion": null
+          },
+          {
+            "id": 2,
+            "name": "Strange Encounter In Closport",
+            "triggerPercent": 20,
+            "minScene": 3,
+            "description": "This Encounter is meant as a catchall for something very strange happening to your Character, including something that is overtly supernatural. Roll on the Description Meaning Tables for inspiration of what the Weird Event looks like, and roll on the Action Meaning Tables for inspiration about what happens. The severity of this Encounter is up to you, based on the Context and where your Character is. For instance, if your Character is currently in Radford Regional Park and rolls this Encounter, then gets \"inform\" and \"misfortune\" on the Action Meaning Tables, maybe your Character begins to hear strange whisperings in the woods that sound like threats.",
+            "newRegion": null
+          },
+          {
+            "id": 3,
+            "name": "Mysterious Message",
+            "triggerPercent": 20,
+            "minScene": 3,
+            "description": "Your Character receives a message from a mysterious source, giving them a clue to their investigation. For inspiration on what form this message takes, and what it says, treat this as a Random Event, with an automatic Event Focus of Move Toward A Thread, with the Thread being \"Get to the bottom of the murder.\"",
+            "newRegion": null
+          },
+          {
+            "id": 4,
+            "name": "Another Death",
+            "triggerPercent": 10,
+            "minScene": 3,
+            "description": "If you generate this Object for an Area, then you have discovered a new murder victim. Interpret how you find the body, and what state it's in, by the current Context and asking any Fate Questions you need to. For instance, let's say your Character is at Hoxel's Farm, rolls an Encounter of Closport Citizen, and rolls Dead Body for Object. After making some Fate Question rolls you may determine the following: Upon arriving at the farm, you look for the owner. You enter the barn and find someone standing over a dead body in the hay. Assuming you have investigated the original death that brought you to Closport, you probably know how that person died. A logical Fate Question to ask when finding a new body is, \"Did they die the same way?\" The Odds of a Yes are Sure Thing",
+            "newRegion": null
+          },
+          {
+            "id": 5,
+            "name": "Another Death",
+            "triggerPercent": 10,
+            "minScene": 5,
+            "description": "If you generate this Object for an Area, then you have discovered a new murder victim. Interpret how you find the body, and what state it's in, by the current Context and asking any Fate Questions you need to. For instance, let's say your Character is at Hoxel's Farm, rolls an Encounter of Closport Citizen, and rolls Dead Body for Object. After making some Fate Question rolls you may determine the following: Upon arriving at the farm, you look for the owner. You enter the barn and find someone standing over a dead body in the hay. Assuming you have investigated the original death that brought you to Closport, you probably know how that person died. A logical Fate Question to ask when finding a new body is, \"Did they die the same way?\" The Odds of a Yes are Sure Thing",
+            "newRegion": null
+          },
+          {
+            "id": 6,
+            "name": "Another Death",
+            "triggerPercent": 10,
+            "minScene": 7,
+            "description": "If you generate this Object for an Area, then you have discovered a new murder victim. Interpret how you find the body, and what state it's in, by the current Context and asking any Fate Questions you need to. For instance, let's say your Character is at Hoxel's Farm, rolls an Encounter of Closport Citizen, and rolls Dead Body for Object. After making some Fate Question rolls you may determine the following: Upon arriving at the farm, you look for the owner. You enter the barn and find someone standing over a dead body in the hay. Assuming you have investigated the original death that brought you to Closport, you probably know how that person died. A logical Fate Question to ask when finding a new body is, \"Did they die the same way?\" The Odds of a Yes are Sure Thing",
+            "newRegion": null
+          },
+          {
+            "id": 7,
+            "name": "Discover Tockley Manor",
+            "triggerNumber": 7,
+            "minScene": 4,
+            "description": "This is a special Encounter where Tockley Manor is introduced to your Character. If you have already learned about Tockley through a Keyed Scene, then your Character gets more information about the Manor in this Encounter. You'll need to determine two things: how you learn about Tockley, and what information is attached to it. The how can be answered through a Fate Question using what seems most logical given the Context. For instance, if your Character is in a shop in Closport and you roll this Encounter, you may determine that the owner of the store tells you about it. \"The woman behind the counter sets down the music box and leans forward, saying in a conspiratorial voice, 'Have you heard of Tockley Manor?'\"  Aside from Characters, you may also learn of the Manor through books or journals. After you determine how you learn about the Manor, you need to attach what you learn about it. This should contain some element of mystery or local legend to it. For inspiration, roll on the Action Meaning Tables. For instance, in our example above of the shopkeeper mentioning Tockley, the Player rolls on the Action Meaning Tables and gets \"waste\" and \"emotions\". You may interpret this to mean: \"She shakes her head mournfully. 'A sad place, really. Such a pity what happened to the Tockleys.'\"",
+            "newRegion": "Tockley Manor"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Tockley Manor",
+        "isStartingRegion": false,
+        "description": null,
+        "locations": [
+          {
+            "id": 1,
+            "name": "Expected",
+            "description": "An Element listing under a Category can simply say 'Expected.' This Category Element represents the mundane in your Region. As your Character enters a Region and explores, you will have expectations of what you will find: dark hallways in a dungeon, tangles of vines in a forest, enemy henchman patrolling a villain's lair. A Category result of 'Expected' produces just that, what you most expect for that Category.",
+            "minScene": null
+          },
+          {
+            "id": 2,
+            "name": "Expected",
+            "description": "An Element listing under a Category can simply say 'Expected.' This Category Element represents the mundane in your Region. As your Character enters a Region and explores, you will have expectations of what you will find: dark hallways in a dungeon, tangles of vines in a forest, enemy henchman patrolling a villain's lair. A Category result of 'Expected' produces just that, what you most expect for that Category.",
+            "minScene": null
+          },
+          {
+            "id": 3,
+            "name": "Hallway",
+            "description": null,
+            "minScene": null
+          },
+          {
+            "id": 4,
+            "name": "Library/Study",
+            "description": "This can be any location that was once used to relax in, such as a library, study, sitting room, etc. This is a good location to search for books and other written records.",
+            "minScene": null
+          },
+          {
+            "id": 5,
+            "name": "Dining Room",
+            "description": "This is what you would expect of a dining room, with a central table and chairs and likely cabinets. There may be multiple dining rooms, some large and some small. You could alternately consider this a tea room with a single small table and a couple of chairs.",
+            "minScene": null
+          },
+          {
+            "id": 6,
+            "name": "Kitchen",
+            "description": "There is only one kitchen in the Manor, and it's a large room with a stove, pots and pans, knifes and cutlery, and plenty of room and counter space to prepare food for dozens of people at a time. Like everything else in the house, however, the room is cobwebby and decrepit.",
+            "minScene": null
+          },
+          {
+            "id": 7,
+            "name": "Random",
+            "description": "A bit more interesting than 'expected' but not something so memorable or supernatural as 'wierd'. Consult your oracle.",
+            "minScene": 2
+          },
+          {
+            "id": 8,
+            "name": "Master Bedroom",
+            "description": "This would be the largest bedroom in the house. It is still fully furnished, with a four poster bed, dresser, mirrors, etc.",
+            "minScene": 2
+          },
+          {
+            "id": 9,
+            "name": "Hallway",
+            "description": null,
+            "minScene": 2
+          },
+          {
+            "id": 10,
+            "name": "Bedroom",
+            "description": null,
+            "minScene": 3
+          },
+          {
+            "id": 11,
+            "name": "Basement",
+            "description": "Finding the basement is a good opportunity for something to happen in the dark and in an enclosed space. What \"basement\" actually means when you find it is up to you ... depending on the Context of the Adventure so far and the results of your Fate Questions.",
+            "minScene": 3
+          },
+          {
+            "id": 12,
+            "name": "Special",
+            "description": "As the name says, something amazing or unusual. Consult your Oracle for details. Maybe it's twice as large, or unusual for this setting.",
+            "minScene": 3
+          },
+          {
+            "id": 13,
+            "name": "Graveyard",
+            "description": "The graveyard is an outdoor location, but should still be considered as part of the house for exploration purposes. Finding the graveyard means you found a connection from your current Area to it, such as a door leading outside. Access from more unlikely locations, such as the second floor, may require more elaborate interpretations, such as a door that leads to an external staircase down to the graveyard. Having been untended for decades, the graveyard has grown wild with vegetation. It will likely feature vine strewn headstones that could obscure things, including encounters. The graveyard may also have other features in it, such as statues, depending on the results of Fate Questions you ask.",
+            "minScene": 4
+          },
+          {
+            "id": 14,
+            "name": "Walk-in Closet",
+            "description": "A mansion this large is going to have some very large closets. These can be considered small rooms and can be interpreted in a number of ways. For instance, if you encounter a walk-in closet after leaving the master bedroom, then it would make sense that this closet is in the bedroom. However, encountering it after leaving the kitchen may indicate that this is actually a walk in freezer. It can also be a pantry, a storage area in the basement, or just about any enclosed space intended for storage.",
+            "minScene": 4
+          },
+          {
+            "id": 15,
+            "name": "Expected",
+            "description": "An Element listing under a Category can simply say 'Expected.' This Category Element represents the mundane in your Region. As your Character enters a Region and explores, you will have expectations of what you will find: dark hallways in a dungeon, tangles of vines in a forest, enemy henchman patrolling a villain's lair. A Category result of 'Expected' produces just that, what you most expect for that Category.",
+            "minScene": 5
+          },
+          {
+            "id": 16,
+            "name": "Laboratory",
+            "description": "This should be considered an unusual room to find in the house, it’s name implying exactly what it is: a room full of scientific apparatus of unknown purpose. Interpretations for what you find in here should be connected with the Context of other strange things you have learned in the Adventure. The laboratory Location is a good way to expand on those earlier findings.",
+            "minScene": 5
+          },
+          {
+            "id": 17,
+            "name": "Solarium",
+            "description": "This is an indoor garden with at least one wall of glass, and the ceiling as well. All the plants are likely dead by now, or some may have grown wild.",
+            "minScene": 6
+          },
+          {
+            "id": 18,
+            "name": "Random",
+            "description": "A bit more interesting than 'expected' but not something so memorable or supernatural as 'wierd'. Consult your oracle.",
+            "minScene": 6
+          }
+        ],
+        "encounters": [
+          {
+            "id": 1,
+            "name": "None",
+            "description": null,
+            "minScene": null,
+            "resolutionPossible": null,
+            "newRegion": null
+          },
+          {
+            "id": 2,
+            "name": "None",
+            "description": null,
+            "minScene": null,
+            "resolutionPossible": null,
+            "newRegion": null
+          },
+          {
+            "id": 3,
+            "name": "Weird Event",
+            "description": "This Encounter is meant as a catchall for something very strange happening to your Character, including something that is overtly supernatural. Roll on the Description Meaning Tables for inspiration of what the Weird Event looks like, and roll on the Action Meaning Tables for inspiration about what happens. The severity of this Encounter is up to you, based on the Context and where your Character is. For instance, if your Character is currently in Radford Regional Park and rolls this Encounter, then gets \"inform\" and \"misfortune\" on the Action Meaning Tables, maybe your Character begins to hear strange whisperings in the woods that sound like threats.",
+            "minScene": null,
+            "resolutionPossible": null,
+            "newRegion": null
+          },
+          {
+            "id": 4,
+            "name": "None",
+            "description": null,
+            "minScene": null,
+            "resolutionPossible": null,
+            "newRegion": null
+          },
+          {
+            "id": 5,
+            "name": "None",
+            "description": null,
+            "minScene": null,
+            "resolutionPossible": null,
+            "newRegion": null
+          },
+          {
+            "id": 6,
+            "name": "None",
+            "description": null,
+            "minScene": null,
+            "resolutionPossible": null,
+            "newRegion": null
+          },
+          {
+            "id": 7,
+            "name": "Random",
+            "description": "A bit more interesting than 'expected' but not something so memorable or supernatural as 'wierd'. Consult your oracle.",
+            "minScene": 2,
+            "resolutionPossible": null,
+            "newRegion": null
+          },
+          {
+            "id": 8,
+            "name": "House Hazard",
+            "description": "This Encounter indicates that your Character has run into something dangerous in the house that pertains to the house itself. For instance, you might enter a bedroom and the floor gives out beneath you. Or, while exploring the solarium a piece of broken glass from the ceiling falls on you. For inspiration about the nature of the hazard, you can roll on the Description Meaning Tables for what the hazard looks like and on the Action Meaning Tables for the danger it poses.",
+            "minScene": 2,
+            "resolutionPossible": null,
+            "newRegion": null
+          },
+          {
+            "id": 9,
+            "name": "Weird Event",
+            "description": "This Encounter is meant as a catchall for something very strange happening to your Character, including something that is overtly supernatural. Roll on the Description Meaning Tables for inspiration of what the Weird Event looks like, and roll on the Action Meaning Tables for inspiration about what happens. The severity of this Encounter is up to you, based on the Context and where your Character is. For instance, if your Character is currently in Radford Regional Park and rolls this Encounter, then gets \"inform\" and \"misfortune\" on the Action Meaning Tables, maybe your Character begins to hear strange whisperings in the woods that sound like threats.",
+            "minScene": 2,
+            "resolutionPossible": null,
+            "newRegion": null
+          },
+          {
+            "id": 10,
+            "name": "Opposition",
+            "description": "Opposition is an Encounter for anything that might happen that involves someone or something directly opposing your further exploration. How this opposition takes shape will depend a lot on what you've learned so far in the Adventure. For instance, if you've discovered that there is a cult in Closport, which you believe committed the murder, then it would make sense that a cultist confronts you in the house. The opposition could be less violent, too.",
+            "minScene": 3,
+            "resolutionPossible": null,
+            "newRegion": null
+          },
+          {
+            "id": 11,
+            "name": "House Hazard",
+            "description": "This Encounter indicates that your Character has run into something dangerous in the house that pertains to the house itself. For instance, you might enter a bedroom and the floor gives out beneath you. Or, while exploring the solarium a piece of broken glass from the ceiling falls on you. For inspiration about the nature of the hazard, you can roll on the Description Meaning Tables for what the hazard looks like and on the Action Meaning Tables for the danger it poses.",
+            "minScene": 3,
+            "resolutionPossible": null,
+            "newRegion": null
+          },
+          {
+            "id": 12,
+            "name": "The Secret",
+            "description": "This Encounter is one of the two possible end goals of the Adventure. The Secret is the answer to the murder that drew you to Closport, or the root of the strangeness you have encountered along the way. What The Secret is can be just about anything. By this point in the Adventure you should have come across clues and information, and probably some oddities as well. This all forms the Context of this Encounter. If you have a good idea what The Secret is, then shape it into a Fate Question and ask.",
+            "minScene": 4,
+            "resolutionPossible": true,
+            "newRegion": null
+          },
+          {
+            "id": 13,
+            "name": "The Entity",
+            "description": "This is the second of the two possible end goals to the Adventure. The Entity is The Secret. The Entity is someone or something, most likely a supernatural creature, that is responsible for the death and much of the weirdness that you may have met with during the Adventure. This sets up a classic confrontation between your Character and “the boss” of the Adventure. This should be a dangerous encounter, where The Entity will likely try to have you suffer the same fate as the murder victim you are investigating. Determining the nature of The Entity is done randomly using the table below. Before rolling on the table, consider how many supernatural events have occurred to your Character so far in the Adventure, and turn this into a modifier for The Entity table.",
+            "minScene": 5,
+            "resolutionPossible": true,
+            "newRegion": null
+          },
+          {
+            "id": 14,
+            "name": "Weird Event",
+            "description": "This Encounter is meant as a catchall for something very strange happening to your Character, including something that is overtly supernatural. Roll on the Description Meaning Tables for inspiration of what the Weird Event looks like, and roll on the Action Meaning Tables for inspiration about what happens. The severity of this Encounter is up to you, based on the Context and where your Character is. For instance, if your Character is currently in Radford Regional Park and rolls this Encounter, then gets \"inform\" and \"misfortune\" on the Action Meaning Tables, maybe your Character begins to hear strange whisperings in the woods that sound like threats.",
+            "minScene": 6
+        },
+        {
+          "id": 15,
+          "name": "Random",
+          "description": "A bit more interesting than 'expected' but not something so memorable or supernatural as 'wierd'. Consult your oracle.",
+          "minScene": 5,
+          "newRegion": null
+        },
+        {
+          "id": 16,
+          "name": "Special",
+          "description": "As the name says, something amazing or unusual. Consult your Oracle for details. Maybe it's twice as large, or unusual for this setting.",
+          "minScene": 5,
+          "newRegion": null
+        },
+        {
+          "id": 17,
+          "name": "Opposition",
+          "description": "Opposition is an Encounter for anything that might happen that involves someone or something directly opposing your further exploration. How this opposition takes shape will depend a lot on what you've learned so far in the Adventure. For instance, if you've discovered that there is a cult in Closport, which you believe committed the murder, then it would make sense that a cultist confronts you in the house. The opposition could be less violent, too.",
+        "minScene": 6,
+          "newRegion": null
+        },
+        {
+          "id": 18,
+          "name": "None",
+          "description": "",
+          "minScene": 6,
+          "newRegion": null
+        },
+        {
+          "id": 19,
+          "name": "Weird Event",
+          "description": "This Encounter is meant as a catchall for something very strange happening to your Character, including something that is overtly supernatural. Roll on the Description Meaning Tables for inspiration of what the Weird Event looks like, and roll on the Action Meaning Tables for inspiration about what happens. The severity of this Encounter is up to you, based on the Context and where your Character is. For instance, if your Character is currently in Radford Regional Park and rolls this Encounter, then gets \"inform\" and \"misfortune\" on the Action Meaning Tables, maybe your Character begins to hear strange whisperings in the woods that sound like threats.",
+          "minScene": 6,
+          "newRegion": null
+        }
+      ],
+      "objects": [
+        {
+          "id": 1,
+          "name": "None",
+          "description": "",
+          "minScene": null
+        },
+        {
+          "id": 2,
+          "name": "Expected",
+          "description": "An Element listing under a Category can simply say 'Expected.' This Category Element represents the mundane in your Region. As your Character enters a Region and explores, you will have expectations of what you will find: dark hallways in a dungeon, tangles of vines in a forest, enemy henchman patrolling a villain's lair. A Category result of 'Expected' produces just that, what you most expect for that Category.",
+          "minScene": null
+        },
+        {
+          "id": 3,
+          "name": "None",
+          "description": "",
+          "minScene": null
+        },
+        {
+          "id": 4,
+          "name": "Evidence",
+          "description": "This Object is something that reinforces clues your Character has already encountered or her current working theory on what is going on in Closport. If you don’t have a current working theory, then this Object should suggest a possible theory. Roll on the Description Meaning Tables for inspiration of what this Object looks like.",
+          "minScene": null
+        },
+        {
+          "id": 5,
+          "name": "Expected",
+          "description": "An Element listing under a Category can simply say 'Expected.' This Category Element represents the mundane in your Region. As your Character enters a Region and explores, you will have expectations of what you will find: dark hallways in a dungeon, tangles of vines in a forest, enemy henchman patrolling a villain's lair. A Category result of 'Expected' produces just that, what you most expect for that Category.",
+          "minScene": null
+        },
+        {
+          "id": 6,
+          "name": "None",
+          "description": "",
+          "minScene": null
+        },
+        {
+          "id": 7,
+          "name": "Journal",
+          "description": "Your Character discovers a written work, perhaps a book or personal journal, that contains useful insights. As with Artifact and Something To Say, this is an opportunity to expand on information about the murder, regions you have learned of. The Context of events that have happened so far should be taken into consideration.",
+          "minScene": 2
+        },
+        {
+          "id": 8,
+          "name": "None",
+          "description": "",
+          "minScene": 2
+        },
+        {
+          "id": 9,
+          "name": "Dead Body",
+          "description": "If you generate this Object for an Area, then you have discovered a new murder victim. Interpret how you find the body, and what state it's in, by the current Context and asking any Fate Questions you need to. For instance, let's say your Character is at Hoxel's Farm, rolls an Encounter of Closport Citizen, and rolls Dead Body for Object. After making some Fate Question rolls you may determine the following: Upon arriving at the farm, you look for the owner. You enter the barn and find someone standing over a dead body in the hay. Assuming you have investigated the original death that brought you to Closport, you probably know how that person died. A logical Fate Question to ask when finding a new body is, \"Did they die the same way?\" The Odds of a Yes are Sure Thing",
+          "minScene": 2
+        },
+        {
+          "id": 10,
+          "name": "Evidence",
+          "description": "This Object is something that reinforces clues your Character has already encountered or her current working theory on what is going on in Closport. If you don’t have a current working theory, then this Object should suggest a possible theory. Roll on the Description Meaning Tables for inspiration of what this Object looks like.",
+          "minScene": 2
+        },
+        {
+          "id": 11,
+          "name": "None",
+          "description": "",
+          "minScene": 2
+        },
+        {
+          "id": 12,
+          "name": "Weird Object",
+          "description": "This Encounter is meant as a catchall for something very strange happening to your Character, including something that is overtly supernatural. Roll on the Description Meaning Tables for inspiration of what the Weird Event looks like, and roll on the Action Meaning Tables for inspiration about what happens. The severity of this Encounter is up to you, based on the Context and where your Character is. For instance, if your Character is currently in Radford Regional Park and rolls this Encounter, then gets \"inform\" and \"misfortune\" on the Action Meaning Tables, maybe your Character begins to hear strange whisperings in the woods that sound like threats.",
+          "minScene": 2
+        },
+        {
+          "id": 13,
+          "name": "Special",
+          "description": "As the name says, something amazing or unusual. Consult your Oracle for details. Maybe it's twice as large, or unusual for this setting.",
+          "minScene": 2
+        },
+        {
+          "id": 14,
+          "name": "Expected",
+          "description": "An Element listing under a Category can simply say 'Expected.' This Category Element represents the mundane in your Region. As your Character enters a Region and explores, you will have expectations of what you will find: dark hallways in a dungeon, tangles of vines in a forest, enemy henchman patrolling a villain's lair. A Category result of 'Expected' produces just that, what you most expect for that Category.",
+          "minScene": 2
+        },
+        {
+          "id": 15,
+          "name": "None",
+          "description": "",
+          "minScene": 2
+        },
+        {
+          "id": 16,
+          "name": "Random",
+          "description": "A bit more interesting than 'expected' but not something so memorable or supernatural as 'wierd'. Consult your oracle.",
+          "minScene": 2
+        },
+        {
+          "id": 17,
+          "name": "Expected",
+          "description": "An Element listing under a Category can simply say 'Expected.' This Category Element represents the mundane in your Region. As your Character enters a Region and explores, you will have expectations of what you will find: dark hallways in a dungeon, tangles of vines in a forest, enemy henchman patrolling a villain's lair. A Category result of 'Expected' produces just that, what you most expect for that Category.",
+          "minScene": 2
+        },
+        {
+          "id": 18,
+          "name": "Weird Object",
+          "description": "This Encounter is meant as a catchall for something very strange happening to your Character, including something that is overtly supernatural. Roll on the Description Meaning Tables for inspiration of what the Weird Event looks like, and roll on the Action Meaning Tables for inspiration about what happens. The severity of this Encounter is up to you, based on the Context and where your Character is. For instance, if your Character is currently in Radford Regional Park and rolls this Encounter, then gets \"inform\" and \"misfortune\" on the Action Meaning Tables, maybe your Character begins to hear strange whisperings in the woods that sound like threats.",
+          "minScene": 2
+        }
+      ],
+      "keyedScenes": [
+        {
+          "id": 1,
+          "name": "Strange Event In Tockley Manor",
+          "triggerPercent": 20,
+          "minScene": 3,
+          "description": "This Encounter is meant as a catchall for something very strange happening to your Character, including something that is overtly supernatural. Roll on the Description Meaning Tables for inspiration of what the Weird Event looks like, and roll on the Action Meaning Tables for inspiration about what happens. The severity of this Encounter is up to you, based on the Context and where your Character is. For instance, if your Character is currently in Radford Regional Park and rolls this Encounter, then gets “inform” and “misfortune” on the Action Meaning Tables, maybe your Character begins to hear strange whisperings in the woods that sound like threats.",
+          "newRegion": null
+        },
+        {
+          "id": 2,
+          "name": "The Entity Attacks",
+          "triggerPercent": 20,
+          "minScene": 5,
+          "description": "This is the second of the two possible end goals to the Adventure. The Entity is The Secret. The Entity is someone or something, most likely a supernatural creature, that is responsible for the death and much of the weirdness that you may have met with during the Adventure. This sets up a classic confrontation between your Character and “the boss” of the Adventure. This should be a dangerous encounter, where The Entity will likely try to have you suffer the same fate as the murder victim you are investigating. Determining the nature of The Entity is done randomly using the table below. Before rolling on the table, consider how many supernatural events have occurred to your Character so far in the Adventure, and turn this into a modifier for The Entity table.",
+          "resolutionPossible": true,
+          "newRegion": null
+        }
+      ]
+    }],
+    "resolution": "The Entity is someone or something, most likely a supernatural creature, that is responsible for the death and much of the weirdness that you may have met with during the Adventure. This sets up a classic confrontation between your Character and \"the boss\" of the Adventure. This should be a dangerous encounter, where The Entity will likely try to have you suffer the same fate as the murder victim you are investigating. Determining the nature of The Entity is done randomly using the table below. Before rolling on the table, consider how many supernatural events have occurred to your Character so far in the Adventure, and turn this into a modifier for The Entity table.\n\nDetermining the nature of The Entity is done randomly using the table below. Before rolling on the table, consider how many supernatural events have occurred to your Character so far in the Adventure, and turn this into a modifier for The Entity table.\n\nNUMBER OF SUPERNATURAL EVENTS/MODIFIER\nNone/None\n1/+1\n2/+2\n3 or more/+4\n\nThe Entity\n\n1D10+ MODIFIER/THE NATURE OF THE ENTITY\n1/PERSON - The Entity is nothing supernatural, just a human being with motive.\n2-4/POWERED PERSON - As above, but the person is supernatural in some way. Maybe they're a sorcerer, an alchemist, has been gifted power by a demon, etc.\n5-6/VAMPIRE - The Entity is a vampire, an energy sucking creature that lives off the life force of living beings.\n7-8/CONSTRUCT - The Entity is a magical creature constructed by someone. This can be a golem made of clay, an animated statue, a corpse resurrected through strange science, etc.\n9-10/GHOST - The Entity is a ghost of some kind, some manner of incorporeal undead.\n11-14/OTHERWORLDLY BEING - The Entity is something very strange and alien, not of this world. This can be a demon, a creature from another plane of existence, something from beyond the stars, etc.\n\n"
+}
+

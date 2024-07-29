@@ -1,0 +1,1585 @@
+{
+    "firstScene": {
+        "description": "Your starship is boldly going where no man has gone before when your comms officer in a fetching red miniskirt uniform informs you she is picking up what might be a distress signal coming from the nearby M class planet Regula Prime. Your science officer agrees that it looks like an older signal using a frequency that has long been discontinued due to its rather short range. The signals are very weak, but there are energy fluctuations from the planet possibly indicating advanced technology. Previously it was believed the planet was uninhabited. You form an away team. Suggested members include your science officer, your chief medical officer, if you can convince him to step into the transporter, the captain, of course, and maybe a few crewmen wearing bright red uniforms. You go to standard orbit and beam down. The adventure begins."
+      },
+      "threads": [
+        {
+          "id": 1,
+          "name": "What is the source of the distress signal?"
+        }
+      ],
+      "characters": [
+        {
+          "id": 1,
+          "name": "Survivors",
+          "description": "Placeholder for any survivors they might encounter"
+        }
+      ],
+      "regions": [
+        {
+            "id": 1,
+            "name": "The Crash Site",
+            "isStartingRegion": true,
+            "description": "The site of the colony ship's crash, a mix of wreckage and makeshift shelters.",
+            "locations": [
+                {
+                    "id": 1,
+                    "name": "Landing Zone",
+                    "description": "Where the away team lands their shuttle or beams down.",
+                    "minScene": 1
+                },
+                {
+                    "id": 2,
+                    "name": "Wreckage Site",
+                    "description": "Remains of the original colony ship.",
+                    "minScene": 2
+                },
+                {
+                    "id": 3,
+                    "name": "Survivor Encampment",
+                    "description": "Temporary shelters made from the ship's remains, now abandoned.",
+                    "minScene": 3
+                },
+                {
+                    "id": 4,
+                    "name": "Signal Beacon",
+                    "description": "Old, malfunctioning distress signal.",
+                    "minScene": 2
+                },
+                {
+                    "id": 5,
+                    "name": "Overgrown Pathway",
+                    "description": "Leads deeper into the forest.",
+                    "newRegion": "The Forest",
+                    "minScene": 3
+                },
+                {
+                    "id": 6,
+                    "name": "Supply Cache",
+                    "description": "Hidden supplies from the ship.",
+                    "minScene": 4
+                },
+                {
+                    "id": 7,
+                    "name": "Old Communication Hub",
+                    "description": "Ruined communication equipment.",
+                    "minScene": 2
+                },
+                {
+                    "id": 8,
+                    "name": "Power Generator",
+                    "description": "Damaged but repairable.",
+                    "minScene": 2
+                },
+                {
+                    "id": 9,
+                    "name": "Medical Tent",
+                    "description": "First aid supplies and makeshift hospital. It appears to have been in use long ago, perhaps when the survivors first arrived. Now abandoned.",
+                    "minScene": 3
+                },
+                {
+                    "id": 10,
+                    "name": "Observation Point",
+                    "description": "High ground for surveying the area.",
+                    "minScene": 3
+                },
+                {
+                    "id": 11,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 2
+                },
+                {
+                    "id": 12,
+                    "name": "Random",
+                    "description": "",
+                    "minScene": 3
+                },
+                {
+                    "id": 13,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 3
+                },
+                {
+                    "id": 14,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 15,
+                    "name": "Random",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 16,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 5
+                }
+            ],
+            "encounters": [
+                {
+                    "id": 1,
+                    "name": "Survivor's Welcome",
+                    "description": "Meet Dr. Elena Kova, the lead scientist of the survivors, who is cautious but welcoming.",
+                    "minScene": 4,
+                    "newRegion": "Colony Town"
+                },
+                {
+                    "id": 2,
+                    "name": "Wreckage Investigation",
+                    "description": "Find a strange ancient device of alien origin among the wreckage.",
+                    "minScene": 2
+                },
+                {
+                    "id": 3,
+                    "name": "Distress Beacon Malfunction",
+                    "description": "Repair the malfunctioning beacon, which provides clues about the colonists' situation.",
+                    "minScene": 1
+                },
+                {
+                    "id": 4,
+                    "name": "Hidden Cache",
+                    "description": "Discover a hidden stash of advanced medical supplies, hinting at strange technology.",
+                    "minScene": 4
+                },
+                {
+                    "id": 5,
+                    "name": "Security Patrol",
+                    "description": "Encounter a group of heavily armed colonists who are unusually aggressive. They don't seem happy to meet you or to be \"rescued\" by you.",
+                    "minScene": 5
+                },
+                {
+                    "id": 6,
+                    "name": "Wildlife Attack",
+                    "description": "Ambushed by local predators, requiring quick thinking to fend them off.",
+                    "minScene": 1
+                },
+                {
+                    "id": 7,
+                    "name": "Communication Disruption",
+                    "description": "A strange interference affects the away team's communication devices.",
+                    "minScene": 1
+                },
+                {
+                    "id": 8,
+                    "name": "Mystery Illness",
+                    "description": "A team member falls ill with a mysterious ailment.",
+                    "minScene": 4
+                },
+                {
+                    "id": 9,
+                    "name": "Clandestine Meeting",
+                    "description": "Overhear a secret conversation between colonists about \"The Serum.\"",
+                    "minScene": 7
+                },
+                {
+                    "id": 10,
+                    "name": "Old Journal",
+                    "description": "Find an old journal detailing early discoveries of the ancient technology.",
+                    "minScene": 7
+                },
+                {
+                    "id": 11,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 12,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 13,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 14,
+                    "name": "Random",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 15,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 16,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 5
+                }
+            ],
+            "objects": [
+                {
+                    "id": 1,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 7
+                },
+                {
+                    "id": 2,
+                    "name": "Colony Logbook",
+                    "description": "Records of the initial discoveries of the ancient tech and early experiments.",
+                    "minScene": 3
+                },
+                {
+                    "id": 3,
+                    "name": "Broken Data Pad",
+                    "description": "A damaged data pad containing encrypted files about...something.",
+                    "minScene": 1
+                },
+                {
+                    "id": 4,
+                    "name": "Energy Cell",
+                    "description": "A power cell from the wreckage that matches the technology found...where?",
+                    "minScene": 3
+                },
+                {
+                    "id": 5,
+                    "name": "Map Fragment",
+                    "description": "Part of a map showing the layout of an underground network.",
+                    "minScene": 6
+                },
+                {
+                    "id": 6,
+                    "name": "Personal Journal",
+                    "description": "Diary of a colonist detailing their experience.",
+                    "minScene": 1
+                },
+                {
+                    "id": 7,
+                    "name": "Medical Kit",
+                    "description": "Contains advanced medical tools and substances derived from somewhere? More advanced than expected technology...",
+                    "minScene": 6
+                },
+                {
+                    "id": 8,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 3
+                },
+                {
+                    "id": 9,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 1
+                },
+                {
+                    "id": 10,
+                    "name": "Random",
+                    "description": "",
+                    "minScene": 6
+                },
+                {
+                    "id": 11,
+                    "name": "Special",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 12,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 3
+                },
+                {
+                    "id": 13,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 6
+                }
+            ],
+            "keyedScenes": [
+                {
+                  "id": 1,
+                  "name": "Wreckage Identified",
+                  "triggerNumber": 3,
+                  "minScene": 1,
+                  "description": "The _Columbus_ an early earth exploration vessel was lost in this region. The crew is able to identify this ship having crashed on this planet, but that was almost 200 years ago.",
+                  "newRegion": null
+                }
+              ]
+                },
+        {
+            "id": 2,
+            "name": "The Forest",
+            "description": "A dense and mysterious forest, home to strange flora and fauna.",
+            "locations": [
+                {
+                    "id": 1,
+                    "name": "Dense Underbrush",
+                    "description": "Difficult to navigate, full of wildlife.",
+                    "minScene": 1
+                },
+                {
+                    "id": 2,
+                    "name": "Clearing",
+                    "description": "Open area with strange flora.",
+                    "minScene": 1
+                },
+                {
+                    "id": 3,
+                    "name": "Waterfall",
+                    "description": "Source of fresh water.",
+                    "minScene": 1
+                },
+                {
+                    "id": 4,
+                    "name": "Cave Entrance",
+                    "description": "Leads to underground network.",
+                    "minScene": 4,
+                    "newRegion": "The Underground Network"
+                },
+                {
+                    "id": 5,
+                    "name": "Animal Lair",
+                    "description": "Den of local wildlife.",
+                    "minScene": 1
+                },
+                {
+                    "id": 6,
+                    "name": "Herb Garden",
+                    "description": "Colony's medicinal plants.",
+                    "minScene": 1
+                },
+                {
+                    "id": 7,
+                    "name": "Mushroom Grove",
+                    "description": "Bioluminescent fungi.",
+                    "minScene": 1
+                },
+                {
+                    "id": 8,
+                    "name": "Ancient Tree",
+                    "description": "Massive, possibly sentient tree.",
+                    "minScene": 1
+                },
+                {
+                    "id": 9,
+                    "name": "Hidden Path",
+                    "description": "Leads to secret areas.",
+                    "minScene": 4,
+                    "newRegion": "The Old City"
+                },
+                {
+                    "id": 10,
+                    "name": "Forest Ruins",
+                    "description": "Remnants of a previous civilization.",
+                    "minScene": 4,
+                    "newRegion": "The Old City"
+                },
+                {
+                    "id": 11,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 12,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 13,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 14,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 15,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 6
+                },
+                {
+                    "id": 16,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 6
+                }
+            ],
+            "encounters": [
+                {
+                    "id": 1,
+                    "name": "Guided Tour",
+                    "description": "Meet Marcus Ren, a friendly but evasive colonist who offers to act as a guide. He doesn't seem to like you wondering around on your own.",
+                    "minScene": 1
+                },
+                {
+                    "id": 2,
+                    "name": "Natural Trap",
+                    "description": "The team encounters quicksand or a hidden pitfall.",
+                    "minScene": 2
+                },
+                {
+                    "id": 3,
+                    "name": "Strange Flora",
+                    "description": "Encounter plants with unusual properties, some of which might have amazing medical uses.",
+                    "minScene": 3
+                },
+                {
+                    "id": 4,
+                    "name": "Lost Child",
+                    "description": "Meet Lina, a young colonist who has wandered off and reveals bits of the colony's secret.",
+                    "minScene": 3
+                },
+                {
+                    "id": 5,
+                    "name": "Hostile Wildlife",
+                    "description": "Ambush by aggressive, genetically altered creatures.",
+                    "minScene": 1
+                },
+                {
+                    "id": 6,
+                    "name": "Ancient Markings",
+                    "description": "Discover ancient carvings that provide clues about a previous civilization.",
+                    "minScene": 5
+                },
+                {
+                    "id": 7,
+                    "name": "Surveillance Devices",
+                    "description": "Find hidden surveillance equipment monitoring the forest.",
+                    "minScene": 3
+                },
+                {
+                    "id": 8,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 1
+                },
+                {
+                    "id": 9,
+                    "name": "Natural Healing Spring",
+                    "description": "Discover a spring with healing properties, used by the colonists.",
+                    "minScene": 5
+                },
+                {
+                    "id": 10,
+                    "name": "Ambush",
+                    "description": "Ambushed by colonist security forces, leading to a tense standoff.",
+                    "minScene": 7
+                },
+                {
+                    "id": 11,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 12,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 13,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 14,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 15,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 6
+                },
+                {
+                    "id": 16,
+                    "name": "Random",
+                    "description": "",
+                    "minScene": 6
+                }
+            ],
+            "objects": [
+                {
+                    "id": 1,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 1
+                },
+                {
+                    "id": 2,
+                    "name": "Botanical Samples",
+                    "description": "Plants native to the area seem useful. You take some to study their properties.",
+                    "minScene": 2
+                },
+                {
+                    "id": 3,
+                    "name": "Random",
+                    "description": "",
+                    "minScene": 3
+                },
+                {
+                    "id": 4,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 5,
+                    "name": "Special",
+                    "description": "",
+                    "minScene": 3
+                },
+                {
+                    "id": 6,
+                    "name": "Ancient Amulet",
+                    "description": "An amulet or other artifact worn by the ancient civilization of this planet.",
+                    "minScene": 7
+                },
+                {
+                    "id": 7,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 1
+                },
+                {
+                    "id": 8,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 9,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 10,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 11,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 12,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 13,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 14,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 15,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 6
+                },
+                {
+                    "id": 16,
+                    "name": "Random",
+                    "description": "",
+                    "minScene": 6
+                }
+            ],
+            "keyedScenes": [
+                {
+                  "id": 1,
+                  "name": "Injury!",
+                  "triggerPercent": 20,
+                  "minScene": 3,
+                  "description": "One of your crew has suffered a serious injury and needs medical attention.",
+                  "newRegion": null
+                }
+              ]
+                },
+        {
+            "id": 3,
+            "name": "Colony Town",
+            "description": "The heart of the colony survivors, a bustling town of people who seem to have been exceptionally prosperous.",
+            "locations": [
+                {
+                    "id": 1,
+                    "name": "Town Square",
+                    "description": "Central gathering place.",
+                    "minScene": 1
+                },
+                {
+                    "id": 2,
+                    "name": "Governor's House",
+                    "description": "Residence of the colony's leader.",
+                    "minScene": 2
+                },
+                {
+                    "id": 3,
+                    "name": "Marketplace",
+                    "description": "Shops and stalls with goods.",
+                    "minScene": 1
+                },
+                {
+                    "id": 4,
+                    "name": "Barracks",
+                    "description": "Housing for colony security.",
+                    "minScene": 3
+                },
+                {
+                    "id": 5,
+                    "name": "Workshop",
+                    "description": "Engineers and craftsmen work here.",
+                    "minScene": 3
+                },
+                {
+                    "id": 6,
+                    "name": "Hospital",
+                    "description": "More advanced medical facility. In fact it seems very advanced.",
+                    "minScene": 1
+                },
+                {
+                    "id": 7,
+                    "name": "Schoolhouse",
+                    "description": "Educational center for children.",
+                    "minScene": 4
+                },
+                {
+                    "id": 8,
+                    "name": "Tavern",
+                    "description": "Social hub for colonists.",
+                    "minScene": 4
+                },
+                {
+                    "id": 9,
+                    "name": "Warehouse",
+                    "description": "Storage for supplies.",
+                    "minScene": 5
+                },
+                {
+                    "id": 10,
+                    "name": "Secret Bunker",
+                    "description": "Hidden room with crucial information.",
+                    "minScene": 7
+                },
+                {
+                    "id": 11,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 12,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 13,
+                    "name": "Private Residence",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 14,
+                    "name": "Market or store",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 15,
+                    "name": "Public space",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 16,
+                    "name": "Alleyway",
+                    "description": "",
+                    "minScene": 5
+                }
+            ],
+            "encounters": [
+                {
+                    "id": 1,
+                    "name": "Market Encounter",
+                    "description": "Meet Talia Mars, a friendly but curious market vendor. She has lots of questions about off planet life.",
+                    "minScene": 1
+                },
+                {
+                    "id": 2,
+                    "name": "Public Speech",
+                    "description": "The colony leader gives a rousing speech about the colony's self-sufficiency.",
+                    "minScene": 4
+                },
+                {
+                    "id": 3,
+                    "name": "Eavesdropping",
+                    "description": "Overhear colonists discussing the \"treatment\" they've received.",
+                    "minScene": 4
+                },
+                {
+                    "id": 4,
+                    "name": "Suspicious Doctor",
+                    "description": "Meet Dr. Isaac Voss, the colony's secretive doctor.",
+                    "minScene": 3
+                },
+                {
+                    "id": 5,
+                    "name": "Marketplace Incident",
+                    "description": "A conflict erupts in the marketplace, revealing tensions among colonists.",
+                    "minScene": 4
+                },
+                {
+                    "id": 6,
+                    "name": "Hidden Clinic",
+                    "description": "Discover a hidden clinic where a serum is administered to colonists. No one wants to talk about this or what it is for.",
+                    "minScene": 6
+                },
+                {
+                    "id": 7,
+                    "name": "Black Market",
+                    "description": "Encounter colonists trading stolen or illicit goods. These are people who might have information for a price.",
+                    "minScene": 5
+                },
+                {
+                    "id": 8,
+                    "name": "Friendly Dinner",
+                    "description": "Invited to dinner with a colonist family, who inadvertently reveal too much.",
+                    "minScene": 6
+                },
+                {
+                    "id": 9,
+                    "name": "Unusual Strength",
+                    "description": "Witness a colonist demonstrating unusual physical abilities.",
+                    "minScene": 4
+                },
+                {
+                    "id": 10,
+                    "name": "Locked Building",
+                    "description": "Find a building that is heavily guarded and off-limits.",
+                    "minScene": 6
+                },
+                {
+                    "id": 11,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 12,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 13,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 14,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 15,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 6
+                },
+                {
+                    "id": 16,
+                    "name": "Random",
+                    "description": "",
+                    "minScene": 6
+                }
+            ],
+            "objects": [
+                {
+                    "id": 1,
+                    "name": "Market Ledger",
+                    "description": "A record of transactions that include references to something interesting.",
+                    "minScene": 1
+                },
+                {
+                    "id": 2,
+                    "name": "Secret Journal",
+                    "description": "The personal journal of Dr. Isaac Voss, detailing his doubts about \"the serum\".",
+                    "minScene": 6
+                },
+                {
+                    "id": 3,
+                    "name": "Suspicious Package",
+                    "description": "A package with vials of a serum and a note about its administration.",
+                    "minScene": 5
+                },
+                {
+                    "id": 4,
+                    "name": "Blueprints",
+                    "description": "Plans for a hidden lab and its equipment.",
+                    "minScene": 7
+                },
+                {
+                    "id": 5,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 1
+                },
+                {
+                    "id": 6,
+                    "name": "Random",
+                    "description": "",
+                    "minScene": 1
+                },
+                {
+                    "id": 7,
+                    "name": "Strange Coin",
+                    "description": "An ancient coin that seems like it must belong to the old inhabitants of the planet.",
+                    "minScene": 3
+                },
+                {
+                    "id": 8,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 9,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 10,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 11,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 12,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 13,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 14,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 15,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 6
+                },
+                {
+                    "id": 16,
+                    "name": "Random",
+                    "description": "",
+                    "minScene": 6
+                }
+            ],
+            "keyedScenes": [
+                {
+                  "id": 1,
+                  "name": "We aren't leaving",
+                  "triggerPercent": 20,
+                  "triggerNumber": 3,
+                  "minScene": 1,
+                  "description": "Hansen Rike, the leader of the survivors, thanks you for your concern but declares they are perfectly happy and have no intention of leaving. He is not a man who likes to be questioned. He is polite but firm and distant.",
+                  "newRegion": null
+                },
+                {
+                  "id": 2,
+                  "name": "Of course this happens",
+                  "triggerPercent": 20,
+                  "minScene": 3,
+                  "description": "Dr. Elena Kova, lead scientist who might have met already (if not you meet her now) becomes amorously interested in one of the crew. Determine who it is. She clearly has some obligation to her people and will not betray them, but she also clearly has information. I wonder how you could get it out of her...",
+                  "newRegion": null
+                }
+              ]
+                },
+        {
+            "id": 4,
+            "name": "The Underground Network",
+            "description": "A maze of tunnels and chambers beneath the forest, holding secrets of the colony.",
+            "locations": [
+                {
+                    "id": 1,
+                    "name": "Cave Entrance",
+                    "description": "Discovered in the forest.",
+                    "minScene": 1
+                },
+                {
+                    "id": 2,
+                    "name": "Tunnel System",
+                    "description": "Maze-like corridors.",
+                    "minScene": 2
+                },
+                {
+                    "id": 3,
+                    "name": "Crystal Chamber",
+                    "description": "Glowing crystals with unknown properties.",
+                    "minScene": 2
+                },
+                {
+                    "id": 4,
+                    "name": "Subterranean Lake",
+                    "description": "Underground water source.",
+                    "minScene": 3
+                },
+                {
+                    "id": 5,
+                    "name": "Collapsed Tunnel",
+                    "description": "Impassable without excavation.",
+                    "minScene": 3
+                },
+                {
+                    "id": 6,
+                    "name": "Old Mine",
+                    "description": "Abandoned mining operation.",
+                    "minScene": 3
+                },
+                {
+                    "id": 7,
+                    "name": "Tunnel System",
+                    "description": "Maze-like corridors.",
+                    "minScene": 2
+                },
+                {
+                    "id": 8,
+                    "name": "Artifact Room",
+                    "description": "Contains alien artifacts.",
+                    "minScene": 5
+                },
+                {
+                    "id": 9,
+                    "name": "Entrance to Secret Laboratory",
+                    "description": "Ask your oracle if it's locked. I bet a phaser could cut through it if it is.",
+                    "minScene": 3,
+                    "newRegion": "The Hidden Lab"
+                },
+                {
+                    "id": 10,
+                    "name": "Escape Route",
+                    "description": "Leads back to the surface. But to an old abandoned city from the former inhabitants of the planet",
+                    "newRegion":"The Old City",
+                    "minScene": 3
+                },
+                {
+                    "id": 11,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 12,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 13,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 14,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 15,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 6
+                },
+                {
+                    "id": 16,
+                    "name": "Random",
+                    "description": "",
+                    "minScene": 6
+                }
+            ],
+            "encounters": [
+                {
+                    "id": 1,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 1
+                },
+                {
+                    "id": 2,
+                    "name": "Ancient Chamber",
+                    "description": "Find a room with ancient alien inscriptions.",
+                    "minScene": 3
+                },
+                {
+                    "id": 3,
+                    "name": "Hostile Encounter",
+                    "description": "Ambushed by hostile colonists guarding the area.",
+                    "minScene": 5
+                },
+                {
+                    "id": 4,
+                    "name": "Old Equipment",
+                    "description": "Discover old mining equipment repurposed for extracting materials.",
+                    "minScene": 3
+                },
+                {
+                    "id": 5,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 1
+                },
+                {
+                    "id": 6,
+                    "name": "Subterranean Water Source",
+                    "description": "There is a lot of it.",
+                    "minScene": 3
+                },
+                {
+                    "id": 7,
+                    "name": "Collapse!",
+                    "description": "A tunnel collapses. Does it separate the team? Is anyone hurt? Ask the oracle. A good opportunity requiring teamwork.",
+                    "minScene": 5
+                },
+                {
+                    "id": 8,
+                    "name": "Alien Artifact",
+                    "description": "Discover a powerful alien artifact",
+                    "minScene": 4
+                },
+                {
+                    "id": 9,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 1
+                },
+                {
+                    "id": 10,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 1
+                },
+                {
+                    "id": 11,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 12,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 13,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 14,
+                    "name": "Random",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 15,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 6
+                },
+                {
+                    "id": 16,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 6
+                }
+            ],
+            "objects": [
+                {
+                    "id": 1,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 1
+                },
+                {
+                    "id": 2,
+                    "name": "Sample Vial",
+                    "description": "A vial labeled with a date and sample number. Clearly old. It seems they have been experimenting with something for a long time.",
+                    "minScene": 3
+                },
+                {
+                    "id": 3,
+                    "name": "Hidden Camera",
+                    "description": "A camera surveying the area. Have they seen you? Do they know you are here?",
+                    "minScene": 4
+                },
+                {
+                    "id": 4,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 3
+                },
+                {
+                    "id": 5,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 6,
+                    "name": "Power Conduit",
+                    "description": "A piece of alien technology used to power a hidden area.",
+                    "minScene": 4
+                },
+                {
+                    "id": 7,
+                    "name": "Rich vein of ore",
+                    "description": "Your scans cannot identify it as any known substance.",
+                    "minScene": 4
+                },
+                {
+                    "id": 8,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 9,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 1
+                },
+                {
+                    "id": 10,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 1
+                },
+                {
+                    "id": 11,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 12,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 13,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 14,
+                    "name": "Random",
+                    "description": "",
+                    "minScene": 5
+                },
+                {
+                    "id": 15,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 6
+                },
+                {
+                    "id": 16,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 6
+                }
+            ],
+            "keyedScenes": [
+                {
+                  "id": 1,
+                  "name": "A sudden reversal",
+                  "triggerPercent": 20,
+                  "minScene": 3,
+                  "description": "Dr. Elena Kova, lead scientist who probably have met already turns up if she is not already with you. She is clearly distressed and asks you to leave the area and not pursue your investigation further.",
+                  "newRegion": null
+                }
+              ]
+                },
+        {
+            "id": 5,
+            "name": "The Old City",
+            "description": "A forgotten city of the ancient civilization, holding clues to the serum's history.",
+            "locations": [
+                {
+                    "id": 1,
+                    "name": "City Gates",
+                    "description": "Entrance to ancient city.",
+                    "minScene": 1
+                },
+                {
+                    "id": 2,
+                    "name": "Main Avenue",
+                    "description": "Central thoroughfare.",
+                    "minScene": 2
+                },
+                {
+                    "id": 3,
+                    "name": "Library",
+                    "description": "Repository of ancient knowledge.",
+                    "minScene": 3
+                },
+                {
+                    "id": 4,
+                    "name": "Temple",
+                    "description": "Religious center of old civilization.",
+                    "minScene": 5
+                },
+                {
+                    "id": 5,
+                    "name": "Marketplace Ruins",
+                    "description": "Abandoned market.",
+                    "minScene": 3
+                },
+                {
+                    "id": 6,
+                    "name": "Residential District",
+                    "description": "Homes of the ancient populace.",
+                    "minScene": 2
+                },
+                {
+                    "id": 7,
+                    "name": "Council Hall",
+                    "description": "Meeting place of old city leaders.",
+                    "minScene": 3
+                },
+                {
+                    "id": 8,
+                    "name": "Statue Plaza",
+                    "description": "Monuments to ancient heroes.",
+                    "minScene": 2
+                },
+                {
+                    "id": 9,
+                    "name": "Underground Vault",
+                    "description": "Secure storage with secrets.",
+                    "minScene": 4
+                },
+                {
+                    "id": 10,
+                    "name": "Entrance to a Hidden Laboratory",
+                    "description": "Ask your oracle if it's locked. I bet a phaser could cut through it if it is.",
+                    "minScene": 4,
+                    "newRegion": "The Hidden Lab"
+                }
+            ],
+            "encounters": [
+                {
+                    "id": 1,
+                    "name": "Encounter the Historian",
+                    "description": "Meet Elder Kor, a historian who knows much about the ancient civilization. He is a kind and wise acedemic and clearly has a love for the ancient ruins.",
+                    "minScene": 1
+                },
+                {
+                    "id": 2,
+                    "name": "Literary Discovery",
+                    "description": "Ancient texts detailing the immortality technology using a serum. But immortality comes at a heavy cost.",
+                    "minScene": 2
+                },
+                {
+                    "id": 3,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 3
+                },
+                {
+                    "id": 4,
+                    "name": "Ambush",
+                    "description": "Attacked or confronted by colonists wanting to keep the city a secret.",
+                    "minScene": 4
+                },
+                {
+                    "id": 5,
+                    "name": "Clue",
+                    "description": "Find evidence that reinforces your current theory.",
+                    "minScene": 1
+                },
+                {
+                    "id": 6,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 3
+                },
+                {
+                    "id": 7,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 3
+                },
+                {
+                    "id": 8,
+                    "name": "Expected",
+                    "description": "",
+                    "minScene": 2
+                },
+                {
+                    "id": 9,
+                    "name": "Environmental Hazard",
+                    "description": "",
+                    "minScene": 4
+                },
+                {
+                    "id": 10,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 2
+                }
+            ],
+            "objects": [
+                {
+                    "id": 1,
+                    "name": "Alien Device",
+                    "description": "What does it do?",
+                    "minScene": 2
+                },
+                {
+                    "id": 2,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 2
+                },
+                {
+                    "id": 3,
+                    "name": "Historical Record",
+                    "description": "Records of the ancient civilization's decline.",
+                    "minScene": 2
+                },
+                {
+                    "id": 4,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 2
+                },
+                {
+                    "id": 5,
+                    "name": "Mysterious Key",
+                    "description": "A key that opens something...",
+                    "minScene": 3
+                },
+                {
+                    "id": 6,
+                    "name": "Tablet of Laws",
+                    "description": "An ancient law tablet that explains the ethical considerations of ancient society. Did they live up to their own ethics?",
+                    "minScene": 2
+                },
+                {
+                    "id": 7,
+                    "name": "Guardian Statue",
+                    "description": "An impressive statue of a long dead race.",
+                    "minScene": 1
+                },
+                {
+                    "id": 8,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 1
+                },
+                {
+                    "id": 9,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 3
+                },
+                {
+                    "id": 10,
+                    "name": "None",
+                    "description": "",
+                    "minScene": 4
+                }
+            ],
+            "keyedScenes": [
+                {
+                  "id": 1,
+                  "name": "Old Technology Comes to life",
+                  "triggerPercent": 20,
+                  "minScene": 2,
+                  "description": "A crewman accidentally activates some ancient tech. Perhaps there is a message or something else. Maybe it is dangerous. Ask your oracle for details but you learn things that reinforce your current suspicions.",
+                  "newRegion": null
+                }
+              ]
+                },
+        {
+                "id": 6,
+                "name": "The Hidden Lab",
+                "description": "A ancient labratory where the colonists have taken over and where the serum is developed and tested.",
+                "locations": [
+                    {
+                        "id": 1,
+                        "name": "Entrance",
+                        "description": "Concealed entrance.",
+                        "minScene": 1
+                    },
+                    {
+                        "id": 2,
+                        "name": "Research Lab",
+                        "description": "Ongoing experiments.",
+                        "minScene": 2
+                    },
+                    {
+                        "id": 3,
+                        "name": "Control Room",
+                        "description": "Monitors the entire lab.",
+                        "minScene": 2
+                    },
+                    {
+                        "id": 4,
+                        "name": "Specimen Containment",
+                        "description": "Some of these don't look pleasant.",
+                        "minScene": 2
+                    },
+                    {
+                        "id": 5,
+                        "name": "Medical Bay",
+                        "description": "Advanced medical tech.",
+                        "minScene": 2
+                    },
+                    {
+                        "id": 6,
+                        "name": "Power Core",
+                        "description": "Lab's energy source.",
+                        "minScene": 2
+                    }
+                ],
+                "encounters": [
+                    {
+                        "id": 1,
+                        "name": "Conflict",
+                        "description": "Meet Guard Captain Rhea, head of security, fiercely loyal to the colony's leadership.",
+                        "minScene": 1
+                    },
+                    {
+                        "id": 2,
+                        "name": "Expected",
+                        "description": "",
+                        "minScene": 1
+                    },
+                    {
+                        "id": 3,
+                        "name": "None",
+                        "description": "",
+                        "minScene": 1
+                    },
+                    {
+                        "id": 4,
+                        "name": "Computer Systems",
+                        "description": "Access records showing the serum's side effects and ethical concerns and development. Perhaps this system could be used to destroy the lab in some way.",
+                        "minScene": 1
+                    },
+                    {
+                        "id": 5,
+                        "name": "None",
+                        "description": "",
+                        "minScene": 1
+                    }
+                ],
+                "objects": [
+                    {
+                        "id": 1,
+                        "name": "Records, Log Entries",
+                        "description": "Documenting the development and side effects of the serum.",
+                        "minScene": 2
+                    },
+                    {
+                        "id": 2,
+                        "name": "None",
+                        "description": "",
+                        "minScene": 1
+                    },
+                    {
+                        "id": 3,
+                        "name": "None",
+                        "description": "",
+                        "minScene": 1
+                    },
+                    {
+                        "id": 4,
+                        "name": "Expected",
+                        "description": "",
+                        "minScene": 1
+                    },
+                    {
+                        "id": 5,
+                        "name": "None",
+                        "description": "",
+                        "minScene": 1
+                    }
+                ],
+                "keyedScenes": [
+                    {
+                      "id": 1,
+                      "name": "A tense encounter",
+                      "triggerPercent": 20,
+                      "minScene": 1,
+                      "description": "Your crew is confronted at gun point...er phaser point. Inerpret it in context. Who does it? How do you resolve it?",
+                      "newRegion": null
+                    },
+                    {
+                      "id": 2,
+                      "name": "The big ending",
+                      "triggerPercent": 20,
+                      "triggerNumber": 5,
+                      "minScene": 3,
+                      "description": "Hansen Rike, the leader of the survivors, confronts you here. How does this end?",
+                      "resolutionPossible": true,
+                      "newRegion": null
+                    }
+                  ]
+                        }
+        ],
+        "resolution": "By know you have uncovered the dark secret behind this place and established that what they are doing is morally compormised. You cannot let it continue. What are your options? A dramatic speech that turns it all around? Cold logic? A show of force? Time travel to get some humpback whales? What kind of support does Rike have? Does he have super human abilities? Perhaps a beautiful woman has a role to play."
+    }

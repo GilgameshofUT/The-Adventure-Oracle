@@ -1,0 +1,797 @@
+{
+    "firstScene": {
+      "description": "The salty air stings your face as the HMS Endeavour cuts through the waves, her sails billowing in the Caribbean wind. You are part of Captain James Blackwood's crew, tasked with charting new territories and rooting out piracy. After weeks at sea, a strange, mist-shrouded island appears on the horizon, absent from any known map. This uncharted territory promises both danger and opportunity. \n\n As you come ashore, you find yourselves in Shipwreck Cove, a natural harbor littered with the skeletal remains of ships lost to time and tide. The air hums with the buzz of insects and the cries of unseen birds. The jungle presses close, its emerald depths promising both beauty and peril.\n\nYour landing party consists of:\n\n1.  Lieutenant Sarah Hawkins, a skilled navigator and naturalist\n2.  Dr. Elias Thorne, the ship's surgeon and amateur botanist\n3.  Quartermaster Jack \"One-Eye\" Cooper, a grizzled veteran sailor\n4.  Midshipman Thomas Flynn, a young and eager officer\n5.  Able Seaman Maria Cortez, known for her keen eyesight and steady hands"
+    },
+    "threads": [
+      {
+        "id": 1,
+        "name": "Uncover the secrets of the uncharted island."
+      },
+      {
+        "id": 2,
+        "name": "Deal with the presence of pirates."
+      },
+      {
+        "id": 3,
+        "name": "Find the legendary treasure."
+      }
+    ],
+    "characters": [
+      {
+        "id": 1,
+        "name": "Captain \"Black Dog\" McGraw",
+        "description": "A ruthless pirate captain with a pegleg and a specially trained parrot that can steal small objects. He's paranoid and trusts no one, especially his quartermaster."
+      },
+      {
+        "id": 2,
+        "name": "\"Cutthroat\" Kate",
+        "description": "Captain McGraw's ambitious quartermaster with intricate tattoos that seem to move. She's been plotting against McGraw for months and sees the treasure as her ticket to becoming a captain."
+      },
+      {
+        "id": 3,
+        "name": "Bart \"Squinty\" Higgins",
+        "description": "A pirate scout with incredibly poor eyesight but an uncanny sense of direction. He's secretly working with Kate to overthrow McGraw."
+      },
+      {
+        "id": 4,
+        "name": "\"Sly\" Pete Morgan",
+        "description": "The superstitious bosun who believes the island is cursed. He's considering abandoning the crew to save his own skin."
+      },
+      {
+        "id": 5,
+        "name": "Molly \"Red\" O'Brien",
+        "description": "The master gunner with a fiery temper. She's loyal to McGraw but might switch sides if offered a better deal."
+      }
+    ],
+    "regions": [
+        {
+            "id": 1,
+            "name": "The Northern Shores",
+            "isStartingRegion": true,
+            "description": "Rocky beaches give way to steep cliffs, the terrain a treacherous maze of jagged rocks and salt-sprayed vegetation. The dense jungle spills down from the higher ground, its emerald embrace promising both beauty and hidden dangers.",
+            "locations": [
+              {
+                "id": 1,
+                "name": "Shipwreck Cove",
+                "description": "The natural harbor where the HMS Endeavour currently sits at anchor. The remains of past vessels, picked clean by time and tide, serve as a stark reminder of the unforgiving nature of these waters.",
+                "minScene": 1
+              },
+              {
+                "id": 2,
+                "name": "The Whispering Cliffs",
+                "description": "Towering cliffs of dark, volcanic rock. The wind whistles through crevices and caverns, creating eerie, voice-like sounds that echo across the shore.",
+                "minScene": 2
+              },
+              {
+                "id": 3,
+                "name": "Strangler Fig Grove",
+                "description": "A section of jungle where massive strangler figs reign supreme, their enormous roots encasing the skeletons of their victims in a macabre embrace. The air is heavy and humid, the ground a tangled mess of roots and decaying foliage.",
+                "minScene": 1
+              },
+              {
+                "id": 4,
+                "name": "The Leaning Lighthouse",
+                "description": "A natural rock formation, weathered and worn by centuries of wind and waves, that bears a striking resemblance to a tilting lighthouse. It serves as a landmark for sailors, but its treacherous position close to the cliffs makes it a risky place to approach.",
+                "minScene": 2
+              },
+              {
+                "id": 5,
+                "name": "Quicksand Beach",
+                "description": "A deceptively inviting stretch of golden sand that hides a deadly secret. Patches of quicksand lie concealed beneath the waves, waiting to trap the unwary.",
+                "minScene": 3
+              },
+              {
+                "id": 6,
+                "name": "The Widow's Peak",
+                "description": "The highest point on the northern coast, a sheer cliff face that offers a breathtaking panoramic view of the island.  A narrow, winding path, recently carved into the rock, allows access to the peak and reveals a previously hidden path leading into the depths of the Eastern Jungle.",
+                "newRegion": "The Eastern Jungle",
+                "minScene": 4
+              },
+              {
+                "id": 7,
+                "name": "Rocky Beach",
+                "description": "A rugged and windswept shore, littered with tide pools and the debris of unfortunate vessels.",
+                "minScene": 1
+              },
+              {
+                "id": 8,
+                "name": "Hidden Cove",
+                "description": "A small, secluded inlet, sheltered from the wind and waves by a ring of jagged rocks. It appears undisturbed, as if hidden from casual view.",
+                "minScene": 3
+              },
+              {
+                "id": 9,
+                "name": "Jungle's Edge",
+                "description": "The point where the dense jungle foliage meets the rocky shoreline, a tangled mess of vines, roots, and dense undergrowth.",
+                "minScene": 2
+              }
+            ],
+            "encounters": [
+              {
+                "id": 1,
+                "name": "Pirate Scouts",
+                "description": "The party encounters two pirates from Captain McGraw's crew - Bart \"Squinty\" Higgins and Molly \"Red\" O'Brien. They are searching for the treasure using an ancient map and are wary of anyone else on the island.",
+                "minScene": 2
+              },
+              {
+                "id": 2,
+                "name": "Venomous Vipers",
+                "description": "A nest of highly poisonous Caribbean Pit Vipers poses a threat to the party's exploration.  Their camouflage makes them difficult to spot amongst the rocks and vegetation.",
+                "minScene": 3
+              },
+              {
+                "id": 3,
+                "name": "Lost and Confused",
+                "description": "A lone sailor, separated from his crew (or perhaps a pirate who fell overboard during a drunken brawl), stumbles upon the party. He is disoriented and desperate for help.",
+                "minScene": 1
+              },
+              {
+                "id": 4,
+                "name": "Pirate Rivalry",
+                "description": "The party witnesses a heated argument between Bart \"Squinty\" Higgins and another pirate, \"Sly\" Pete Morgan, over the interpretation of their treasure map.  Tensions are high, and the dispute could easily escalate into violence.",
+                "minScene": 4
+              },
+              {
+                "id": 5,
+                "name": "Signs of Piracy",
+                "description": "The party discovers evidence of recent pirate activity - a hastily abandoned campfire, discarded food wrappers, or perhaps even a crudely drawn map etched into a rock.",
+                "minScene": 2
+              },
+              {
+                "id": 6,
+                "name": "Trapped Animal",
+                "description": "A large crab, its claw caught in a crevice, struggles to free itself. It could pose a threat if approached carelessly.",
+                "minScene": 1
+              },
+              {
+                "id": 7,
+                "name": "Eerie Silence",
+                "description": "An unsettling quiet falls upon the area, the usual sounds of the jungle and the sea strangely absent. It's as if the island itself is holding its breath.",
+                "minScene": 3
+              }
+            ],
+            "objects": [
+              {
+                "id": 1,
+                "name": "Sea Shell",
+                "description": "A large, spiraling sea shell, its interior a delicate shade of pink.  It seems unremarkable, but perhaps it holds some significance.",
+                "minScene": 1
+              },
+              {
+                "id": 2,
+                "name": "Message in a Bottle",
+                "description": "A weathered glass bottle, sealed with wax, containing a rolled-up piece of parchment. The message inside is faded and difficult to decipher.",
+                "minScene": 2
+              },
+              {
+                "id": 3,
+                "name": "Pirate Trinket",
+                "description": "A tarnished silver earring, shaped like a skull and crossbones, likely dropped by one of the pirates.",
+                "minScene": 3
+              },
+              {
+                "id": 4,
+                "name": "Strange Fruit",
+                "description": "A piece of fruit, unlike anything found in known botanical guides, lies partially hidden amongst the undergrowth. Its vibrant colors and unusual texture are both alluring and unsettling.",
+                "minScene": 2
+              },
+              {
+                "id": 5,
+                "name": "Broken Compass",
+                "description": "A compass, its needle spinning erratically, suggests the presence of magnetic anomalies on the island.",
+                "minScene": 4
+              },
+              {
+                "id": 6,
+                "name": "Torn Fabric",
+                "description": "A scrap of fine silk, dyed a deep crimson, snagged on a thorny vine. It's clearly out of place in this untamed wilderness.",
+                "minScene": 1
+              }
+            ],
+            "keyedScenes": [
+              {
+                "id": 1,
+                "name": "Captain's Orders",
+                "triggerNumber": 3,
+                "minScene": 2,
+                "description": "A message arrives from Captain Blackwood aboard the HMS Endeavour, delivered by a small boat. He instructs the landing party to prioritize their search for the pirates and the rumored treasure, emphasizing the potential riches and glory that await them.",
+                "newRegion": null
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "The Eastern Jungle",
+            "isStartingRegion": false,
+            "description": "A thick, steamy jungle, teeming with life and shrouded in an oppressive humidity. Towering trees form a dense canopy overhead, filtering the sunlight into emerald shards that illuminate a chaotic undergrowth of vines, ferns, and exotic blooms. The air hangs heavy with the scent of decay and the cacophony of buzzing insects, chattering monkeys, and the screech of unseen birds.",
+            "locations": [
+              {
+                "id": 1,
+                "name": "The Emerald Canopy",
+                "description": "A section of the jungle where the leaves overhead form an almost solid green ceiling, casting the forest floor in perpetual twilight. The air here is particularly thick and humid, the ground soft and spongy underfoot.",
+                "minScene": 1
+              },
+              {
+                "id": 2,
+                "name": "Monkey's Playground",
+                "description": "A network of interconnected trees, their branches forming a natural obstacle course for a troop of mischievous monkeys. Their playful chattering echoes through the trees, a constant reminder of the jungle's watchful eyes.",
+                "minScene": 2
+              },
+              {
+                "id": 3,
+                "name": "The Whispering Reeds",
+                "description": "A large clearing dominated by tall, slender reeds that sway in the slightest breeze. Their rustling creates a whispering sound that carries on the wind, masking other noises and creating an unsettling atmosphere.",
+                "minScene": 3
+              },
+              {
+                "id": 4,
+                "name": "Foggy Hollow",
+                "description": "A depression in the jungle floor, perpetually shrouded in a thick, swirling mist. The air here is cool and damp, the visibility limited. Strange sounds emanate from the fog, both alluring and unsettling.",
+                "minScene": 1
+              },
+              {
+                "id": 5,
+                "name": "The Hanging Gardens",
+                "description": "A series of natural terraces, carved into the side of a steep incline, covered in lush, colorful vegetation.  Waterfalls cascade down the rock face, creating a shimmering curtain of mist. A narrow path winds its way up the terraces, offering breathtaking views and access to a hidden trail leading into the higher ground of The Western Highlands.",
+                "newRegion": "The Western Highlands",
+                "minScene": 4
+              },
+              {
+                "id": 6,
+                "name": "Titan's Footprint",
+                "description": "An enormous lake, its shape uncannily resembling a giant footprint, lies in the heart of the jungle. The water is still and dark, reflecting the surrounding trees like a mirror. A sense of ancient power lingers around the lake, as if the island itself remembers the titan's tread.",
+                "minScene": 2
+              },
+              {
+                "id": 7,
+                "name": "Overgrown Ruins",
+                "description": "The crumbling remnants of ancient stone structures, swallowed by the encroaching jungle. Vines and roots twist around weathered columns and shattered walls, hinting at a long-lost civilization.",
+                "minScene": 3
+              },
+              {
+                "id": 8,
+                "name": "Sunken Grove",
+                "description": "A low-lying area where the ground is perpetually waterlogged, creating a swampy environment within the jungle. The air here is thick with mosquitos, the stagnant water a breeding ground for insects and other creatures.",
+                "minScene": 2
+              },
+              {
+                "id": 9,
+                "name": "Bamboo Forest",
+                "description": "A dense thicket of towering bamboo stalks, their hollow stems creaking and groaning in the wind. The ground is littered with fallen leaves and the sharp, broken ends of bamboo, making travel difficult and noisy.",
+                "minScene": 1
+              }
+            ],
+            "encounters": [
+              {
+                "id": 1,
+                "name": "Pirate Ambush",
+                "description": "Captain McGraw's main force, led by his quartermaster \"Cutthroat\" Kate, attempts to ambush the party, believing them to be rivals seeking the treasure. A tense standoff ensues, with the potential for negotiation or a bloody confrontation.",
+                "minScene": 3
+              },
+              {
+                "id": 2,
+                "name": "Treacherous Terrain",
+                "description": "The party encounters a natural obstacle - a steep ravine, a fast-flowing river, or perhaps a dense thicket of thorny vines - that requires careful navigation and teamwork to overcome.",
+                "minScene": 2
+              },
+              {
+                "id": 3,
+                "name": "Memory-Stealing Orchids",
+                "description": "A cluster of beautiful orchids, their blooms emitting a sweet, intoxicating fragrance, cause temporary amnesia in those who inhale their pollen. Party members might forget recent events or even their own identities, leading to confusion and vulnerability.",
+                "minScene": 4
+              },
+              {
+                "id": 4,
+                "name": "Imposter Trees",
+                "description": "Strange trees, capable of rapidly changing their appearance to mimic surrounding vegetation, attempt to lure in unsuspecting prey.  Their bark might resemble rocks, their branches like vines, their leaves mimicking harmless plants. A careless touch could reveal their true nature - a carnivorous plant eager for a meal.",
+                "minScene": 1
+              },
+              {
+                "id": 5,
+                "name": "Pirate Argument",
+                "description": "The party stumbles upon a group of pirates arguing amongst themselves. Perhaps they are debating the best route to the treasure, or perhaps they are on the verge of a mutiny against Captain McGraw.",
+                "minScene": 2
+              },
+              {
+                "id": 6,
+                "name": "Jungle Fever",
+                "description": "One of the party members falls ill with a debilitating fever, caused by a bite from a venomous insect or the consumption of contaminated water. Their condition worsens rapidly, requiring urgent medical attention.",
+                "minScene": 3
+              },
+              {
+                "id": 7,
+                "name": "Jungle Whispers",
+                "description": "Strange whispers and rustling sounds seem to follow the party as they move through the jungle. It's difficult to discern if it's just the wind, curious animals, or something more sinister.",
+                "minScene": 1
+              }
+            ],
+            "objects": [
+              {
+                "id": 1,
+                "name": "Primitive Tools",
+                "description": "A set of crude tools, fashioned from bones and volcanic glass, suggests the presence of indigenous inhabitants on the island.",
+                "minScene": 2
+              },
+              {
+                "id": 2,
+                "name": "Preserved Butterfly",
+                "description": "A perfectly preserved butterfly, its wings a dazzling array of colors, encased in a chunk of amber.  It's a relic of the jungle's ancient past.",
+                "minScene": 1
+              },
+              {
+                "id": 3,
+                "name": "Carved Idol",
+                "description": "A small wooden idol, carved with intricate details and strange symbols, suggests the presence of ritualistic practices on the island.",
+                "minScene": 3
+              },
+              {
+                "id": 4,
+                "name": "Poisonous Berries",
+                "description": "A cluster of bright red berries, tempting to the eye but deadly to the touch. Their juice stains the fingers a deep purple, a warning of their toxic nature.",
+                "minScene": 2
+              },
+              {
+                "id": 5,
+                "name": "Mysterious Map",
+                "description": "A tattered piece of parchment, depicting a crude map of the island. It seems to mark the location of a hidden cave entrance, leading to The Southern Swamps.",
+                "newRegion": "The Southern Swamps",
+                "minScene": 4
+              },
+              {
+                "id": 6,
+                "name": "Strange Feathers",
+                "description": "A collection of large, iridescent feathers, unlike those of any known bird, suggests the presence of unusual creatures in the jungle.",
+                "minScene": 1
+              }
+            ],
+            "keyedScenes": [
+              {
+                "id": 1,
+                "name": "Pirate Betrayal",
+                "triggerPercent": 30,
+                "minScene": 4,
+                "description": " \"Cutthroat\" Kate, seizing an opportunity to take control, attempts to eliminate Captain McGraw. The party witnesses a violent struggle amongst the pirates, forcing them to choose sides or flee the chaos.",
+                "newRegion": null
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "The Southern Swamps",
+            "isStartingRegion": false,
+            "description": "A vast, oppressive swamp, shrouded in a perpetual haze of humidity and the buzzing of insects. Murky water, choked with algae and rotting vegetation, stretches as far as the eye can see. Twisted mangrove trees, their roots reaching out like grasping claws, form a tangled labyrinth that hides a multitude of dangers. The air hangs heavy with the scent of decay and the croaking of frogs, while unseen creatures stir in the depths, their eyes glinting in the shadows.",
+            "locations": [
+              {
+                "id": 1,
+                "name": "The Bubbling Pools",
+                "description": "Areas of the swamp where mysterious gases constantly bubble up from the murky depths, creating an eerie and unsettling spectacle. The air here smells strongly of sulfur, and the water is tinged with an oily sheen.",
+                "minScene": 1
+              },
+              {
+                "id": 2,
+                "name": "Gator Alley",
+                "description": "A long, narrow channel of water, teeming with aggressive alligators. Their eyes, just above the waterline, watch every movement with predatory intensity.  Navigating this passage requires extreme caution and a steady hand.",
+                "minScene": 2
+              },
+              {
+                "id": 3,
+                "name": "The Weeping Willows",
+                "description": "A grove of willow trees, their branches drooping low over the water, exude a strange, luminescent sap. It drips from their leaves, creating an eerie, otherworldly glow in the twilight.",
+                "minScene": 3
+              },
+              {
+                "id": 4,
+                "name": "Mangrove Maze",
+                "description": "A dense thicket of mangrove trees, their tangled roots forming a natural labyrinth that is difficult to navigate. The water here is shallow and muddy, hiding unseen obstacles and lurking creatures.",
+                "minScene": 1
+              },
+              {
+                "id": 5,
+                "name": "Island of Bones",
+                "description": "A small island, rising slightly above the swamp water, is littered with the bleached bones of countless creatures. It serves as a grim reminder of the swamp's unforgiving nature.",
+                "minScene": 2
+              },
+              {
+                "id": 6,
+                "name": "Firefly Fields",
+                "description": "As twilight descends, this area of the swamp comes alive with the magical glow of thousands of fireflies. Their flickering lights create an enchanting spectacle, but also illuminate a narrow path leading out of the swamp and towards the foothills of The Western Highlands.",
+                "newRegion": "The Western Highlands",
+                "minScene": 4
+              },
+              {
+                "id": 7,
+                "name": "Sunken Wreck",
+                "description": "The rotting hull of a long-lost ship, half-submerged in the swamp water. Its broken masts reach towards the sky like skeletal fingers, and its decks are a treacherous mess of rotting timbers and clinging vines.",
+                "minScene": 3
+              },
+              {
+                "id": 8,
+                "name": "Floating Island",
+                "description": "A large mat of vegetation, thick enough to support a person's weight, drifts slowly through the swamp. It offers a precarious platform for exploration, but its movement is unpredictable and its edges treacherous.",
+                "minScene": 2
+              }
+            ],
+            "encounters": [
+              {
+                "id": 1,
+                "name": "Quicksand Trap",
+                "description": "One of the party members, stepping onto seemingly solid ground, finds themselves sinking rapidly into a patch of quicksand. Their struggles only worsen their predicament, requiring immediate assistance from their companions.",
+                "minScene": 2
+              },
+              {
+                "id": 2,
+                "name": "Pirate Negotiation",
+                "description": "The party encounters Captain \"Black Dog\" McGraw himself, accompanied by a few loyal crew members. He proposes an uneasy alliance to find the treasure, offering to share the riches but clearly planning to betray them at the first opportunity.",
+                "minScene": 3
+              },
+              {
+                "id": 3,
+                "name": "Poisonous Fog",
+                "description": "A thick bank of toxic mist rolls through the swamp, causing coughing, dizziness, and difficulty breathing. The party must find higher ground or risk succumbing to its deadly effects.",
+                "minScene": 4
+              },
+              {
+                "id": 4,
+                "name": "Melodic Mangroves",
+                "description": "The party is lured towards a cluster of mangrove trees by an enchanting, hypnotic hum emanating from their depths.  The sound promises respite and safety, but it is a trap designed to lure victims into the swamp's embrace.",
+                "minScene": 1
+              },
+              {
+                "id": 5,
+                "name": "Carnivorous Lily Pads",
+                "description": "Seemingly normal lily pads, floating on the surface of the water, reveal their true nature when disturbed. They wrap around anything that touches them, their edges lined with razor-sharp teeth, attempting to drag their victims beneath the surface.",
+                "minScene": 2
+              },
+              {
+                "id": 6,
+                "name": "Swamp Fever",
+                "description": "The oppressive heat and humid air of the swamp take their toll on the party, causing exhaustion, dehydration, and potentially even delirium.",
+                "minScene": 3
+              }
+            ],
+            "objects": [
+              {
+                "id": 1,
+                "name": "Old Rope",
+                "description": "A length of old, frayed rope, partially submerged in the swamp water. It's thick and sturdy, suggesting it once belonged to a larger vessel.",
+                "minScene": 1
+              },
+              {
+                "id": 2,
+                "name": "Animal Prints",
+                "description": "Large, clawed footprints in the mud suggest the presence of a powerful creature lurking in the swamp.",
+                "minScene": 2
+              },
+              {
+                "id": 3,
+                "name": "Tattered Journal",
+                "description": "A waterlogged journal, its pages warped and faded, contains the scribbled ramblings of a lost soul. The writing speaks of madness, treasure, and a fear of the swamp's depths.",
+                "minScene": 3
+              },
+              {
+                "id": 4,
+                "name": "Strange Skull",
+                "description": "The bleached skull of an unknown creature, its shape unlike any known animal, hints at the swamp's evolutionary secrets.",
+                "minScene": 1
+              },
+              {
+                "id": 5,
+                "name": "Glowing Sap",
+                "description": "A vial of the luminescent sap from the weeping willows. It emits a faint, otherworldly glow, even in the darkest depths of the swamp.",
+                "minScene": 2
+              },
+              {
+                "id": 6,
+                "name": "Pirate Treasure",
+                "description": "A small, watertight chest, partially buried in the mud, contains a handful of gold coins and a few pieces of tarnished jewelry. It's a tempting prize, but likely just a fraction of the legendary treasure.",
+                "minScene": 4
+              }
+            ],
+            "keyedScenes": [
+              {
+                "id": 1,
+                "name": "Pirate Superstition",
+                "triggerPercent": 40,
+                "minScene": 3,
+                "description": "The party overhears \"Sly\" Pete Morgan attempting to convince the remaining pirates that the swamp is cursed and they should abandon their search for treasure. His words play on their fears and superstitions, potentially sowing seeds of doubt and discord.",
+                "newRegion": null
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "The Western Highlands",
+            "isStartingRegion": false,
+            "description": "A stark contrast to the humid jungles and swamps below, the Western Highlands rise sharply from the island's center. Jagged peaks pierce the sky, their slopes a tapestry of windswept grasses, hardy shrubs, and exposed rock faces. The air is thin and crisp, carrying the scent of pine and the echoing calls of birds of prey. Deep ravines carve through the landscape, their depths shrouded in shadow. A sense of ancient power hangs over these heights, a place where the wind whispers secrets and the earth remembers forgotten tales.",
+            "locations": [
+              {
+                "id": 1,
+                "name": "The Needle",
+                "description": "A tall, slender spire of rock, visible from most parts of the island. Its sharp peak seems to pierce the sky, a natural landmark for those brave enough to climb its treacherous slopes. The view from the top offers a breathtaking panorama of the entire island.",
+                "minScene": 2
+              },
+              {
+                "id": 2,
+                "name": "Echo Canyon",
+                "description": "A deep, narrow ravine where the walls amplify sound in unusual ways. Whispers become shouts, footsteps echo like thunder, and the wind howls like a banshee.  The acoustics of the canyon can be disorienting and unnerving.",
+                "minScene": 1
+              },
+              {
+                "id": 3,
+                "name": "The Balancing Stones",
+                "description": "A collection of large boulders, precariously balanced on smaller points of rock. They seem to defy gravity, their massive weight seemingly suspended in mid-air. A slight tremor could send them tumbling down the slopes.",
+                "minScene": 3
+              },
+              {
+                "id": 4,
+                "name": "Meteor Crater",
+                "description": "A large, circular depression in the ground, believed to be the result of a meteor impact. The crater is deep and its sides are steep, making it a difficult climb. Strange metallic rocks and a faint magnetic anomaly suggest an extraterrestrial origin.",
+                "minScene": 2
+              },
+              {
+                "id": 5,
+                "name": "Crystal Valley",
+                "description": "A hidden valley, nestled between the peaks, where the ground is covered in large, colorful crystals. They shimmer and sparkle in the sunlight, casting rainbows across the landscape. A sense of peace and tranquility pervades the valley, a stark contrast to the harshness of the surrounding highlands.",
+                "minScene": 4
+              },
+              {
+                "id": 6,
+                "name": "Windswept Plateau",
+                "description": "A flat, elevated area exposed to the full force of the wind. Hardy grasses and stunted trees cling to the rocky ground, offering little shelter from the elements. The plateau offers stunning views, but also exposes travelers to the risk of sudden storms and treacherous gusts.",
+                "minScene": 1
+              },
+              {
+                "id": 7,
+                "name": "Eagle's Nest",
+                "description": "A high ledge, perched on the side of a sheer cliff face, provides a nesting ground for a pair of majestic eagles. Their sharp eyes scan the landscape below, and their piercing cries echo through the canyons.",
+                "minScene": 3
+              },
+              {
+                "id": 8,
+                "name": "Hidden Cave Entrance",
+                "description": "A narrow opening, concealed amongst the rocks and vegetation, leads into a dark and mysterious cave system.  It is the rumored entrance to The Cave System, where the legendary treasure is said to be hidden.",
+                "newRegion": "The Cave System",
+                "minScene": 5
+              }
+            ],
+            "encounters": [
+              {
+                "id": 1,
+                "name": "Rope Bridge Crossing",
+                "description": "The party must cross a precarious rope bridge, swaying high above a deep chasm. The bridge is old and weathered, its ropes frayed and its planks rotten.  Midway across, they are attacked by giant, predatory birds, their talons sharp and their beaks hooked.",
+                "minScene": 3
+              },
+              {
+                "id": 2,
+                "name": "Azura's Guardian Spirit",
+                "description": "At the entrance to a cave, the party encounters a shimmering apparition - Azura, the guardian spirit of the island's treasure.  She explains that she was sacrificed long ago to protect the riches, and demands payment for passage. Her presence is both ethereal and imposing, her voice filled with sorrow and warning.",
+                "minScene": 4
+              },
+              {
+                "id": 3,
+                "name": "Pirate Double-Cross",
+                "description": "If an alliance was formed with Captain McGraw, he chooses this moment to betray the party. His true intentions - to claim the treasure for himself - are revealed, leading to a fierce battle on the precarious cliffs.",
+                "minScene": 5
+              },
+              {
+                "id": 4,
+                "name": "Stone Mimics",
+                "description": "Plants that resemble rocks, their exteriors perfectly camouflaged amongst the surrounding terrain, lie in wait for unsuspecting prey.  Their touch is paralyzing, slowly draining the life force of their victims.",
+                "minScene": 2
+              },
+              {
+                "id": 5,
+                "name": "Vertigo Vines",
+                "description": "Climbing vines, covered in tiny thorns, induce extreme dizziness and disorientation in those who touch them.  The effect can be debilitating, causing nausea, blurred vision, and difficulty maintaining balance.",
+                "minScene": 1
+              },
+              {
+                "id": 6,
+                "name": "Mountain Lion",
+                "description": "A large mountain lion, its tawny fur blending seamlessly with the rocks, stalks the party from the shadows. Its eyes gleam with predatory hunger, and its growl sends shivers down their spines.",
+                "minScene": 3
+              }
+            ],
+            "objects": [
+              {
+                "id": 1,
+                "name": "Mood Crystal",
+                "description": "A crystal that changes color depending on the holder's emotions.  Its hues shift from cool blues and greens when calm, to fiery reds and oranges when angry or fearful.",
+                "minScene": 2
+              },
+              {
+                "id": 2,
+                "name": "Ancient Coin",
+                "description": "A gold coin, bearing the image of a long-dead king, suggests a connection between the island and a lost civilization.",
+                "minScene": 1
+              },
+              {
+                "id": 3,
+                "name": "Broken Sword",
+                "description": "The rusted blade of a broken sword, its hilt still bearing the intricate markings of a skilled craftsman, hints at past battles fought on these heights.",
+                "minScene": 3
+              },
+              {
+                "id": 4,
+                "name": "Eagle Feather",
+                "description": "A large, white feather, dropped by one of the eagles that nest on the cliffs. It's considered a symbol of strength and vision in many cultures.",
+                "minScene": 2
+              },
+              {
+                "id": 5,
+                "name": "Strange Fossil",
+                "description": "A fossilized shell, embedded in a rock, its shape unlike any known marine creature. It suggests the island's geological history is far more ancient and complex than initially believed.",
+                "minScene": 4
+              },
+              {
+                "id": 6,
+                "name": "Glowing Moss",
+                "description": "A patch of moss that emits a faint, ethereal glow. It seems to thrive in the shadow of the cliffs, drawing its energy from an unknown source.",
+                "minScene": 1
+              }
+            ],
+            "keyedScenes": [
+              {
+                "id": 1,
+                "name": "Pirate Mutiny",
+                "triggerPercent": 50,
+                "minScene": 4,
+                "description": "The party witnesses a full-scale mutiny against Captain McGraw, led by \"Cutthroat\" Kate and supported by most of the crew.  The mutiny is violent and chaotic, with loyalties shifting rapidly. The party must choose sides or flee the carnage.",
+                "newRegion": null
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "The Cave System",
+            "isStartingRegion": false,
+            "description": "The air is thick with the scent of damp earth and the silence is broken only by the drip of water.  The cave system is a labyrinth of winding tunnels and vast caverns, illuminated only by the faint glow of bioluminescent fungi clinging to the walls. The air is heavy and still, a stark contrast to the windswept highlands above. Strange echoes reverberate through the passages, and shadows dance in the flickering light, playing tricks on the eyes. This is a place of ancient secrets, where the echoes of the past linger in the darkness.",
+            "locations": [
+              {
+                "id": 1,
+                "name": "The Hall of Whispers",
+                "description": "A large cavern where even the slightest sound echoes endlessly, creating a disorienting cacophony of whispers and murmurs. The walls are smooth and polished, reflecting sound in unpredictable ways.",
+                "minScene": 1
+              },
+              {
+                "id": 2,
+                "name": "Crystal Cathedral",
+                "description": "An enormous cavern, its ceiling studded with giant crystals that emit a soft, ethereal glow. The crystals seem to pulse with an inner light, casting strange shadows across the cavern floor.",
+                "minScene": 2
+              },
+              {
+                "id": 3,
+                "name": "The Chasm of No Return",
+                "description": "A seemingly bottomless pit that splits the cave system. The roar of rushing water echoes from its depths, and a cold wind blows upward, carrying the scent of damp earth and decay.",
+                "minScene": 3
+              },
+              {
+                "id": 4,
+                "name": "The Forge of the Ancients",
+                "description": "A chamber containing mysterious machinery, its purpose long forgotten. Strange symbols are etched into the metal surfaces, and a faint humming sound suggests that the machines are still operational.",
+                "minScene": 2
+              },
+              {
+                "id": 5,
+                "name": "The Drowned Passage",
+                "description": "A partially flooded tunnel, its ceiling low and the water cold and murky. Navigating this passage requires swimming through the darkness, with only the faint glow of bioluminescent organisms to guide the way.",
+                "minScene": 4
+              },
+              {
+                "id": 6,
+                "name": "The Lich's Throne Room",
+                "description": "The final chamber, a place of ancient power and palpable evil. The air is heavy with the stench of decay, and a skeletal figure sits upon a throne of bone, its eyes glowing with an unholy light. This is the lair of the lich, the guardian of the treasure and the final obstacle to claiming the island's riches.",
+                "minScene": 5
+              },
+              {
+                "id": 7,
+                "name": "Stalactite Grove",
+                "description": "A cavern where countless stalactites hang from the ceiling, forming a dense, spiky forest. The air here is thick with moisture, and the constant dripping of water creates an eerie rhythm.",
+                "minScene": 1
+              },
+              {
+                "id": 8,
+                "name": "Underground River",
+                "description": "A swift-flowing river that cuts through the cave system. Its waters are dark and cold, and its current is strong and unpredictable.",
+                "minScene": 3
+              }
+            ],
+            "encounters": [
+              {
+                "id": 1,
+                "name": "Cave Collapse",
+                "description": "A tremor shakes the cave, causing rocks and debris to fall from the ceiling. The party must react quickly to avoid being crushed or trapped in a collapsing tunnel.",
+                "minScene": 2
+              },
+              {
+                "id": 2,
+                "name": "Bioluminescent Maze",
+                "description": "A vast cavern, its walls covered in glowing fungi that form a disorienting maze. The party must find their way through the labyrinth, relying on the patterns of light and shadow to guide their path.",
+                "minScene": 3
+              },
+              {
+                "id": 3,
+                "name": "Lich's Lair",
+                "description": "The party confronts the lich, the undead guardian of the treasure. This ancient sorcerer commands powerful magic and an army of skeletal warriors, presenting a formidable challenge to even the most seasoned adventurers. The lich's presence is chilling, its voice a rasping whisper that echoes through the chamber.",
+                "minScene": 5
+              },
+              {
+                "id": 4,
+                "name": "Cave Leeches",
+                "description": "Fungal growths, resembling large, fleshy leeches, cling to the damp walls and ceilings. Their touch drains the life force of their victims, leaving them weakened and vulnerable.",
+                "minScene": 1
+              },
+              {
+                "id": 5,
+                "name": "Echo Moss",
+                "description": "A type of moss that perfectly mimics any sound it hears, creating a confusing and disorienting effect. The party might hear their own voices echoing back to them, or the sounds of footsteps and whispers coming from empty passages.",
+                "minScene": 2
+              },
+              {
+                "id": 6,
+                "name": "Giant Bats",
+                "description": "A colony of giant bats, their wings leathery and their eyes glowing red in the darkness, roost in the cavern's high ceiling. They are easily disturbed, and their attacks are swift and disorienting.",
+                "minScene": 4
+              }
+            ],
+            "objects": [
+              {
+                "id": 1,
+                "name": "Eternal Torch",
+                "description": "A magical torch that never burns out, its flame a steady source of light.  The flame changes color depending on the air quality, flickering blue in clean air and turning a sickly green in the presence of poison.",
+                "minScene": 2
+              },
+              {
+                "id": 2,
+                "name": "Wayfinder Stone",
+                "description": "A smooth, black stone that, when squeezed, provides a sense of direction, pointing the holder towards the nearest exit from the cave system.",
+                "minScene": 3
+              },
+              {
+                "id": 3,
+                "name": "Necklace of Darkvision",
+                "description": "A silver necklace, its pendant a polished obsidian stone, grants the wearer temporary darkvision, allowing them to see clearly in the absence of light.",
+                "minScene": 1
+              },
+              {
+                "id": 4,
+                "name": "Ancient Key",
+                "description": "A heavy, ornate key, its metal warm to the touch. Its purpose is unknown, but it seems to radiate a faint magical aura.",
+                "minScene": 4
+              },
+              {
+                "id": 5,
+                "name": "Crystal Shard",
+                "description": "A shard of crystal, broken from one of the giant crystals in the Crystal Cathedral. It retains a faint glow, casting a dim light in the surrounding darkness.",
+                "minScene": 2
+              },
+              {
+                "id": 6,
+                "name": "Lich's Phylactery",
+                "description": "A small, ornate box, containing the lich's phylactery - the source of its immortality. Destroying the phylactery is the only way to permanently defeat the lich.",
+                "minScene": 5
+              }
+            ],
+            "keyedScenes": [
+              {
+                "id": 1,
+                "name": "Final Confrontation",
+                "triggerPercent": 60,
+                "minScene": 4,
+                "description": "The remnants of the pirate crew, led by whoever survived the mutiny (either McGraw or Kate), catch up with the party just as they are about to confront the lich. The pirates, still seeking the treasure, are forced to make a choice - ally with the party against a common enemy or fight for their own selfish desires, risking the lich's wrath.",
+                "newRegion": null
+              },
+              {
+                "id": 2,
+                "name": "The True Treasure",
+                "triggerNumber": 5,
+                "minScene": 5,
+                "description": "Upon defeating the lich, the party discovers that the true treasure is not just gold and jewels, but also ancient artifacts of immense power and historical significance. These relics hold the potential to change the world, but they are also dangerous and corrupting. The party must decide what to do with this newfound power - claim it for themselves, hide it away for safekeeping, or destroy it before it falls into the wrong hands.",
+                "resolutionPossible": true,
+                "newRegion": null
+              }
+            ]
+          }
+    ],
+    "resolution": "The fate of the island's treasure rests in your hands. Will you claim it for the crown? Strike a bargain with the remaining pirates? Or leave it undisturbed, respecting the wishes of its long-dead guardians? The choices you make will determine the fate of the island, the balance of power in the Caribbean, and perhaps even your own destinies."
+  }

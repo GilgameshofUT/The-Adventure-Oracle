@@ -1,0 +1,1 @@
+Nope. Got to the start of region 5, slowed to a crawl, then gave up. It would be nice but it is just too much to output. You will have to cut and paste. 102,829 tokens 94,636

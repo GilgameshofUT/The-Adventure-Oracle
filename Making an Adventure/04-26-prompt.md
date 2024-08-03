@@ -1,0 +1,1 @@
+I just kept repeating prompt 4 until all the regions had been generated. Keep an eye on it because if you keep feeding it the prompt after it has completed the plan it will just start to make up new regions.

@@ -1,0 +1,6043 @@
+{
+  "firstScene": {
+    "description": "You are John Carter, a former Confederate soldier, inexplicably transported to the arid plains of Barsoom, a dying world under two moons. The thin air burns your lungs, the strange gravity throws off your balance, and the crimson landscape stretches endlessly before you. Survival is your immediate concern, but a deeper mystery calls: How did you get here, and what destiny awaits you on this alien planet?"
+  },
+  "threads": [
+    {
+      "id": 1,
+      "name": "Survive the Martian Wasteland"
+    },
+    {
+      "id": 2,
+      "name": "Unravel the Mystery of Your Arrival"
+    }
+  ],
+  "characters": [
+    {
+      "id": 1,
+      "name": "Tars Tarkas",
+      "description": "A fierce Thark warrior, both ambitious and surprisingly pragmatic. He observes you with an intensity that chills and intrigues."
+    },
+    {
+      "id": 2,
+      "name": "Sola",
+      "description": "A Thark woman, surprisingly compassionate despite her brutal upbringing. She offers cryptic warnings and reluctant guidance."
+    }
+  ],
+  "regions": [
+{
+  "id": 1,
+  "name": "The Desolate Plains",
+  "isStartingRegion": true,
+  "description": "You awake in a vast, desolate plain, the red dust stretching to the horizon beneath the twin moons of Barsoom. The air is thin, the gravity unfamiliar, and the silence profound. Your Confederate army revolver and hunting knife feel strangely heavy in this alien environment.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Ancient Crater",
+      "description": "A massive crater, its rim cracked and eroded by time. Scattered across its dusty floor are remnants of a forgotten past: crumbling structures, rusted machinery, and bleached bones.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Dried Riverbed",
+      "description": "A winding scar across the landscape, where water once flowed. Smooth, sun-baked stones and the occasional hardy plant hint at a time when this world was less hostile.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Rock Outcropping",
+      "description": "A cluster of jagged rocks, offering a meager shelter from the harsh Martian sun and a vantage point to survey the surrounding plains.",
+      "minScene": 1
+    },
+    {
+      "id": 4,
+      "name": "Small Oasis",
+      "description": "A rare patch of green in this red wasteland. A spring bubbles up from the ground, nurturing a few stunted trees and attracting what little animal life exists in this region. You discover tracks here of a large thoat, suggesting this oasis is a watering hole for the fearsome Martian creatures. This is your first encounter with the possibility of discovering the Whispering Forest.",
+      "newRegion": "The Whispering Forest",
+      "minScene": 3
+    },
+    {
+      "id": 5,
+      "name": "Scattered Ruins",
+      "description": "The remains of ancient buildings, half-buried in the red sand. Walls of crumbling Martian brick and twisted metal beams suggest a civilization lost to time.",
+      "minScene": 4
+    },
+    {
+      "id": 6,
+      "name": "Dust Devil",
+      "description": "A whirling column of red sand, dancing across the plain. It's a mesmerizing sight, but also a potential danger, capable of disorienting or blinding you.",
+      "minScene": 2
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 8,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 10,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Martian Fauna",
+      "description": "A small, rodent-like creature scurries across your path. It's quick and wary, but might be a source of food if you're desperate enough.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Mirage",
+      "description": "A shimmering image appears in the distance, a tantalizing vision of water and greenery. Is it a cruel trick of the Martian atmosphere, or a sign of a true oasis?",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Signs of the Tharks",
+      "description": "You discover the massive footprints of a thoat, the six-legged steed of the fearsome Tharks. This is a stark reminder that you are not alone on this world. It also suggests the Cairn of Skulls might be nearby. This opens up travel to the Cairn of Skulls.",
+      "newRegion": "The Cairn of Skulls",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Falling Meteorite",
+      "description": "A fiery streak blazes across the sky, a meteorite plummeting towards the Martian surface. It crashes in the distance, sending a plume of red dust into the air.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Random",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Martian Plant",
+      "description": "A strange, spiky plant with leathery leaves. It seems hardy, but whether it's edible or poisonous is unknown.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Piece of Ancient Metal",
+      "description": "A fragment of rusted metal, its shape hinting at a once-complex piece of machinery.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Smooth, Red Stone",
+      "description": "A strangely smooth, red stone, polished by the Martian winds. It feels cool to the touch and fits comfortably in your hand.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 7,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 9,
+      "name": "Random",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "The Gravity of the Situation",
+      "triggerNumber": 2,
+      "minScene": 1,
+      "description": "The low gravity of Barsoom becomes apparent as you attempt a simple task.  You misjudge a leap, stumble over a small rock, or find your strength amplified in an unexpected way. This should be a humorous scene, highlighting the challenges of adapting to a new world.",
+      "newRegion": null
+    },
+    {
+      "id": 2,
+      "name": "First Contact",
+      "triggerPercent": 30,
+      "minScene": 4,
+      "description": "You catch a glimpse of a Thark warrior in the distance, a hulking green figure atop a six-legged thoat. It’s a brief but chilling encounter, emphasizing the dangers of this alien world.",
+      "newRegion": null
+    }
+  ]
+}
+,
+{
+  "id": 2,
+  "name": "The Whispering Forest",
+  "isStartingRegion": false,
+  "description": "A strange, unsettling forest of tall, spindly plants with sharp thorns. The wind whispers through the dense foliage, creating an eerie, almost musical sound. Shadows shift and dance in the dim light filtering through the canopy, making it difficult to discern what's real and what's imagined.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Thorny Thicket",
+      "description": "A dense tangle of thorny plants, almost impassable. The air is thick with the scent of sap and something faintly metallic.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Sunlit Clearing",
+      "description": "A small clearing where the sunlight breaks through the canopy. Strange, luminous fungi grow in clusters at the base of the trees.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Tunnel Entrance",
+      "description": "A dark opening in the ground, partially concealed by thorny vines. The air coming from it is cool and damp, suggesting a network of tunnels beneath the forest. This opens up travel back to the Desolate Plains.",
+      "newRegion": "The Desolate Plains",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Strange Fruiting Tree",
+      "description": "A tall, slender tree with smooth, gray bark. It bears large, pulpy fruits that glow with a faint, internal light. Their scent is both sweet and unsettling.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Whispering Grove",
+      "description": "A grove of particularly tall, slender trees. The wind whispers through their branches with a haunting melody, almost as if the trees themselves are communicating.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "Random",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Martian Predator",
+      "description": "A large, reptilian creature with razor-sharp teeth and glowing eyes emerges from the thicket. It hisses at you, its forked tongue tasting the air.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Whispering Illusion",
+      "description": "You hear your name whispered on the wind, a voice that seems both familiar and utterly alien. It calls to you from the depths of the forest.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Glowing Fungus",
+      "description": "A cluster of bioluminescent fungi, emitting a soft, ethereal light. It seems harmless, but its properties are unknown.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Thorny Vine",
+      "description": "A length of tough, thorny vine, surprisingly strong and flexible. It could be used as a makeshift rope or weapon.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Strange Fruit",
+      "description": "A large, pulpy fruit that glows with a faint, internal light. Its scent is both sweet and unsettling. It might be food, but it could also be poisonous.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 9,
+      "name": "Random",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "Whispers of the Past",
+      "triggerPercent": 25,
+      "minScene": 3,
+      "description": "As you explore the forest, you stumble upon a crumbling structure, its walls covered in faded murals depicting a lost civilization. The murals hint at advanced technology and a connection to the stars. This is also your first encounter with the Ancient Observatory, opening up travel to that location.",
+      "newRegion": "The Ancient Observatory"
+    }
+  ]
+}
+,
+{
+  "id": 3,
+  "name": "The Cairn of Skulls",
+  "isStartingRegion": false,
+  "description": "A towering monument of death rises from the red plains, a grim testament to the brutality of Thark culture. The Cairn of Skulls is exactly as its name suggests: a massive pile of bleached bones, both humanoid and those of strange Martian beasts. The stench of decay hangs heavy in the air, a silent warning to any who approach.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Base of the Cairn",
+      "description": "The ground surrounding the cairn is littered with loose bones and cracked skulls. The sand is stained a rusty red in places, suggesting old bloodstains.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Spiral Path",
+      "description": "A narrow, winding path spirals upwards around the cairn, offering a treacherous ascent to its summit.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Hidden Chamber",
+      "description": "A small, hidden chamber within the cairn, accessible through a narrow passage concealed by skulls. The air inside is stale and dusty.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Summit of the Cairn",
+      "description": "The highest point of the cairn, offering a panoramic view of the desolate plains. The wind howls around you, carrying the faint scent of death and dust.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Shadow of the Cairn",
+      "description": "The long shadow cast by the cairn stretches across the plain, a dark and ominous presence.  As the sun sets this opens up travel to the Thoat Watering Hole",
+      "newRegion": "The Thoat Watering Hole",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "Random",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Scavenging Beast",
+      "description": "A large, four-legged creature with bony plates and a long, snapping beak picks at the bones at the base of the cairn. It eyes you with a hungry gaze.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Thark Patrol",
+      "description": "A group of Thark warriors on thoats rides past the cairn, their green skin and fierce expressions a sight to behold. They seem to be on patrol, their eyes scanning the horizon for any signs of danger or prey.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Ancient Weapon",
+      "description": "A rusted sword, its blade chipped and broken, lies half-buried in the sand near the base of the cairn. It's a relic of a past battle, a reminder of the violence that permeates this world.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Thark Trinket",
+      "description": "A small, crudely carved piece of bone, adorned with strange markings. It seems to be a Thark trinket, perhaps a symbol of their brutal beliefs or rituals.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Faded Cloth",
+      "description": "A scrap of faded cloth, caught on a protruding bone. Its color and weave suggest it was once part of a garment worn by a different race, not the Tharks.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 7,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 9,
+      "name": "Random",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "Ancient Inscription",
+      "triggerPercent": 20,
+      "minScene": 3,
+      "description": "Within the hidden chamber or elsewhere on the Cairn, you discover a stone slab carved with strange symbols. It seems to be an inscription in a language you don't recognize, but the symbols evoke a sense of age and power.",
+      "newRegion": null
+    }
+  ]
+}
+,
+{
+  "id": 4,
+  "name": "The Thoat Watering Hole",
+  "isStartingRegion": false,
+  "description": "A muddy depression in the desolate plains, where the ground is churned and trampled by the heavy feet of thoats. The air is thick with the scent of musk and dust. The watering hole is a vital resource in this arid world, drawing both prey and predators. This is your opportunity to observe the Tharks in their natural environment, but also a place of potential danger.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Muddy Shore",
+      "description": "The edge of the watering hole, a treacherous mix of mud and water. Thoat tracks crisscross the area, leaving deep impressions in the soft ground.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Rocky Overlook",
+      "description": "A rocky outcropping overlooking the watering hole, offering a vantage point to observe the surrounding area. The wind whistles through the crevices, carrying the sounds of the plains.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Stunted Trees",
+      "description": "A cluster of stunted, thorny trees grows near the edge of the watering hole, their branches twisted and gnarled by the harsh conditions. They offer a meager source of shade.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Approaching Tharks",
+      "description": "You see a Thark war party approaching the watering hole in the distance. Their thoats kick up clouds of red dust as they ride. This opens travel to the Thark Marching Column.",
+      "newRegion": "Thark Marching Column",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 8,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "Random",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Thirsty Thoats",
+      "description": "A group of thoats, their six legs churning the mud, crowds around the watering hole. Their massive bodies and sharp tusks are a sight to behold, and their guttural calls echo across the plains.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Lone Thark Scout",
+      "description": "A lone Thark warrior on a thoat rides up to the watering hole, his eyes scanning the surroundings. He is armed with a long spear and a curved sword, and his green skin is adorned with tribal markings. He seems wary and alert.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Thoat Carcass",
+      "description": "The partially devoured carcass of a thoat lies near the edge of the watering hole, attracting scavenging creatures. It's a grim reminder of the harsh realities of this world.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Discarded Weapon",
+      "description": "A crudely made Thark spear, its point broken, lies abandoned near the watering hole. It suggests a recent skirmish or hunt.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "Ambush at the Watering Hole",
+      "triggerPercent": 30,
+      "minScene": 3,
+      "description": "As you observe the watering hole, a group of Tharks emerge from the surrounding plains, surrounding you. They are hostile and suspicious, demanding to know who you are and what you are doing on their territory.  This is a tense encounter, where your actions could determine your fate.",
+      "newRegion": null
+    }
+  ]
+}
+,
+{
+  "id": 5,
+  "name": "Thark Marching Column",
+  "isStartingRegion": false,
+  "description": "You are now a captive, forced to march alongside the relentless Thark horde. The column stretches across the barren landscape, a sea of green bodies and six-legged thoats. The pace is grueling, the sun relentless, and the dust chokes the air. The Tharks are a harsh and unforgiving people, their society ruled by strength and brutality.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Center of the Column",
+      "description": "Surrounded by Thark warriors, you are jostled and pushed as you struggle to keep pace. The air is thick with the scent of sweat, dust, and thoat musk.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Edge of the Column",
+      "description": "You manage to stay near the edge of the column, offering a slightly better view of the surrounding plains. The horizon stretches endlessly, a bleak panorama of red sand and distant mountains.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Sola's Thoat",
+      "description": "You find yourself near Sola, riding on the back of her thoat. She offers a few gruff words, a mixture of warning and reluctant guidance.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Tars Tarkas' Presence",
+      "description": "You catch a glimpse of Tars Tarkas, riding near the head of the column. He seems to be observing you, his piercing gaze sending a shiver down your spine.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Nightfall Approaches",
+      "description": "As the sun begins to set, the Thark column slows its pace, preparing to make camp for the night.  This opens up travel to A Night Camp Under the Moons.",
+      "newRegion": "A Night Camp Under the Moons",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "Random",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Thark Challenge",
+      "description": "A young Thark warrior, eager to prove his strength, challenges you to a wrestling match. Refusal would be seen as a sign of weakness, but victory could earn you a measure of respect.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Sola's Intervention",
+      "description": "Sola intervenes to prevent a Thark warrior from harming you. She warns you to be careful, her words hinting at the dangers that lie ahead.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Tars Tarkas' Questioning",
+      "description": "Tars Tarkas rides alongside you, asking questions about your origins and your knowledge of Earth. He seems intrigued by your strangeness, but also wary of your potential threat.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 7,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Thark Ration",
+      "description": "A tough, leathery strip of dried meat, the staple food of the Tharks. It's bland and chewy, but it sustains you.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Broken Shackle",
+      "description": "A broken metal shackle, discarded on the ground. It hints at the Tharks' brutal treatment of their captives.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "Test of Strength",
+      "triggerPercent": 25,
+      "minScene": 2,
+      "description": "Whether through a challenge or a sudden crisis, you are forced to demonstrate your strength and resourcefulness to the Tharks. This could involve a physical feat, a display of ingenuity, or a moment of quick thinking. Your success or failure will impact your standing within the horde.",
+      "newRegion": null
+    },
+    {
+      "id": 2,
+      "name": "Rumors of War",
+      "triggerPercent": 20,
+      "minScene": 4,
+      "description": "You overhear whispers among the Tharks, rumors of a planned raid on a Red Martian outpost. This sparks a sense of anticipation and dread, knowing that violence is inevitable.",
+      "newRegion": null
+    }
+  ]
+}
+,
+{
+  "id": 6,
+  "name": "A Night Camp Under the Moons",
+  "isStartingRegion": false,
+  "description": "The Thark horde has settled for the night, a circle of flickering fires casting eerie shadows across the barren landscape. The twin moons of Barsoom hang in the sky, bathing the scene in an ethereal glow. The air is filled with the sounds of crackling fire, guttural conversations in the Thark language, and the occasional mournful cry of a thoat.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Communal Fire Pit",
+      "description": "A large fire pit in the center of the camp, where Tharks gather to cook their meager rations and share stories of past battles and hunts.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Sola's Shelter",
+      "description": "A crude shelter made of hides and poles, where Sola prepares her food and rests for the night. She seems more approachable here, away from the prying eyes of the other Tharks.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Tars Tarkas' Tent",
+      "description": "A larger, more elaborate tent, marking the quarters of Tars Tarkas. Guards stand watch outside, their eyes alert for any sign of trouble.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Edge of the Camp",
+      "description": "You wander to the edge of the camp, where the shadows deepen and the silence of the plains presses in. The stars are brilliant in the clear Martian sky.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Sunrise Breaks",
+      "description": "The sky begins to lighten in the east, signaling the end of the night and the resumption of the march. This opens up travel back to the Thark Marching Column.",
+      "newRegion": "Thark Marching Column",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "Random",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Thark Storyteller",
+      "description": "An old Thark warrior, his body scarred and weathered, sits by the fire, recounting tales of ancient heroes and legendary battles. His words paint vivid pictures of a dying world, where survival is a constant struggle.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Sola's Confidence",
+      "description": "Sola seeks you out, sharing her thoughts and fears about the Thark way of life. She hints at a desire for something more, a longing for a world beyond brutality and war.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Tars Tarkas' Summons",
+      "description": "Tars Tarkas summons you to his tent. He questions you further, probing your knowledge and assessing your potential value to the horde. His motives are unclear, a mixture of curiosity and suspicion.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 7,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Thark Musical Instrument",
+      "description": "A crudely made flute, fashioned from a thoat bone. Its sound is haunting and melancholic, reflecting the harsh beauty of the Martian landscape.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Carved Wooden Figure",
+      "description": "A small, carved wooden figure, depicting a strange, multi-limbed creature. It seems to be a Thark idol, perhaps representing one of their gods or ancestral spirits.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "Thark Ritual",
+      "triggerPercent": 20,
+      "minScene": 3,
+      "description": "You witness a strange Thark ritual, a brutal ceremony involving chanting, fire, and blood. It's a glimpse into the dark heart of their beliefs and customs, leaving you both fascinated and repulsed. This opens up the possibility of travel to a new region - A Thark Coming-of-Age Ritual.",
+      "newRegion": "A Thark Coming-of-Age Ritual"
+    }
+  ]
+}
+,
+{
+  "id": 7,
+  "name": "A Thark Coming-of-Age Ritual",
+  "isStartingRegion": false,
+  "description": "The air crackles with tension and anticipation as you witness a brutal Thark coming-of-age ritual.  Young warriors, their bodies painted with ochre and blood, face grueling tests of strength, endurance, and ruthlessness.  The ceremony takes place under the watchful gaze of the older generation, their faces impassive, their judgments unwavering. The ground is hard-packed earth, stained red in places from past rituals. Torches flicker, casting dancing shadows, and the chanting of the Tharks resonates with a primal energy that both fascinates and repels you.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Ritual Circle",
+      "description": "A circle of stones marks the central area of the ritual ground. Within this circle, the young warriors face their challenges, their every move scrutinized by the assembled Tharks.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Watcher's Ridge",
+      "description": "A low ridge overlooking the ritual ground, where older Tharks gather to observe the ceremony. Their expressions are a mix of pride, anticipation, and cold judgment.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Sacrificial Pit",
+      "description": "A deep pit dug into the earth, its edges stained with dried blood. The stench of death lingers in the air, a reminder of the sacrifices demanded by Thark tradition.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Sola's Discomfort",
+      "description": "You find Sola standing apart from the other Tharks, her expression a mixture of disgust and sadness. She seems troubled by the brutality of the ritual, hinting at a hidden compassion within her.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Returning to Camp",
+      "description": "As the ritual concludes, the Tharks begin to dismantle their temporary camp.  This opens travel back to A Night Camp Under the Moons.",
+      "newRegion": "A Night Camp Under the Moons",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "Random",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Trial of Strength",
+      "description": "You witness a brutal trial of strength, where young Tharks wrestle, fight with crude weapons, and test their endurance against pain and exhaustion.  The winner is celebrated, while the loser faces humiliation or worse.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Test of Cunning",
+      "description": "The young warriors are tasked with a challenge that tests their cunning and survival skills. They must track a prey animal through the wilderness, navigate a treacherous obstacle course, or solve a riddle posed by the elders.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Sola's Disgust",
+      "description": "Sola expresses her disgust at the brutality of the ritual, questioning the Thark way of life. She hints at a different path, a path of compassion and understanding.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 7,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Ceremonial Mask",
+      "description": "A grotesque mask, carved from wood and bone, used in the coming-of-age ritual. It represents a fearsome Thark deity or ancestral spirit.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Bloodstained Weapon",
+      "description": "A crude Thark weapon, its blade stained with fresh blood. It was used in the ritual combat, a testament to the violence at the heart of Thark culture.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "Unexpected Mercy",
+      "triggerPercent": 25,
+      "minScene": 3,
+      "description": "During a particularly brutal part of the ritual, you have an opportunity to intervene, showing an unexpected act of mercy or compassion. Your action surprises the Tharks, challenging their ingrained beliefs about strength and ruthlessness. This could earn you respect, contempt, or a mixture of both.",
+      "newRegion": null
+    }
+  ]
+}
+,
+{
+  "id": 8,
+  "name": "A Raid on a Red Martian Outpost",
+  "isStartingRegion": false,
+  "description": "The Thark horde descends upon a Red Martian outpost, a whirlwind of violence and chaos.  The air is filled with the clash of steel, the screams of the dying, and the guttural war cries of the Tharks. Buildings burn, smoke billows, and the ground is stained crimson with blood.  Amidst the carnage, you struggle to survive, your Earthly morals clashing with the brutal reality of Martian warfare.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Breached Wall",
+      "description": "The Tharks have smashed through the outer wall of the outpost, creating a gaping hole that leads into the heart of the enemy's defenses.  The ground is littered with broken bodies and scattered weapons.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Burning Building",
+      "description": "Flames engulf a Red Martian building, sending thick smoke and sparks into the sky. The heat is intense, and the air is choked with the smell of burning wood and flesh.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Central Plaza",
+      "description": "A once-grand plaza, now a scene of utter devastation. The ground is littered with debris, bodies, and abandoned weapons.  The air is thick with the stench of blood and smoke.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Thark Victory",
+      "description": "The Tharks have gained control of the outpost, their victory assured. They begin to round up prisoners and loot the fallen city, their brutality unchecked. This opens up travel to The Captured Palace.",
+      "newRegion": "The Captured Palace",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Desperate Escape Route",
+      "description": "Amidst the chaos, you spot a potential escape route, a narrow alleyway or hidden passage leading away from the fighting. This opens up travel to The Slave Caravan",
+      "newRegion": "The Slave Caravan",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "Random",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Wounded Red Martian",
+      "description": "A Red Martian soldier, badly wounded, lies helpless amidst the debris. He begs for mercy, his words a mix of fear and defiance.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Panicked Civilians",
+      "description": "A group of terrified Red Martian civilians flees from the fighting, their faces etched with fear. They offer a glimpse into the human cost of war.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Tars Tarkas' Bloodlust",
+      "description": "Tars Tarkas, his eyes gleaming with bloodlust, leads a charge against a group of Red Martian defenders. His strength and ferocity are terrifying to behold.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Sola's Restraint",
+      "description": "Sola tries to restrain a Thark warrior from killing a helpless Red Martian woman. Her actions suggest a flicker of compassion in the midst of the carnage.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Red Martian Weapon",
+      "description": "A sleek, well-crafted sword, its blade still sharp despite the chaos of battle. It's a symbol of Red Martian technology and craftsmanship.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Torn Red Martian Banner",
+      "description": "A tattered banner, its colors faded but its symbol still visible. It represents the pride and defiance of the Red Martian people.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "The Princess of Helium",
+      "triggerPercent": 100,
+      "minScene": 3,
+      "description": "Amidst the chaos of the raid, you see her - Dejah Thoris, Princess of Helium.  She is a captive of the Tharks, her proud bearing and regal beauty shining even in this moment of defeat.  This is a turning point in your adventure, igniting a new purpose within you: to protect her and perhaps win her freedom.",
+      "newRegion": null
+    }
+  ]
+}
+,
+{
+  "id": 9,
+  "name": "The Captured Palace",
+  "isStartingRegion": false,
+  "description": "The Red Martian outpost has fallen, and you find yourself within the captured palace, a place of both splendor and despair.  The Tharks have taken over, their crude belongings clashing with the elegant furnishings and intricate decorations. Red Martian prisoners are herded through the halls, their faces etched with fear and resentment. The air is thick with tension, a sense of unease hanging over the once-proud palace.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Grand Hall",
+      "description": "A vast hall with soaring ceilings and intricate murals depicting scenes of Red Martian history and mythology. Thark warriors lounge on the once-pristine floors, their weapons scattered carelessly around them.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Throne Room",
+      "description": "The former seat of Red Martian power, now occupied by a hulking Thark chieftain.  The throne itself, a masterpiece of craftsmanship, is draped with furs and weapons, a symbol of the Tharks' triumph.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Prison Cells",
+      "description": "A row of cells, their iron bars cold and unforgiving. Red Martian prisoners huddle within, their whispers filled with fear and defiance.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Dejah Thoris' Chamber",
+      "description": "A luxurious chamber, its walls adorned with tapestries and its floors covered with soft rugs.  Dejah Thoris is held captive here, guarded by a pair of watchful Tharks.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Secret Passage",
+      "description": "You discover a hidden passage, concealed behind a tapestry or beneath a loose floorboard. It seems to lead to a less-traveled part of the palace, offering a potential escape route. This opens up travel to The Gardens of the Palace.",
+      "newRegion": "The Gardens of the Palace",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "Random",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Thark Looting",
+      "description": "A group of Tharks ransacks a room, tossing aside valuable artifacts and smashing delicate furniture in their search for plunder.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Red Martian Resistance",
+      "description": "A group of Red Martian prisoners attempts a desperate escape, their defiance short-lived but inspiring.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Dejah Thoris' Defiance",
+      "description": "Dejah Thoris confronts her Thark captors, her words sharp and her spirit unbroken. She demands to be treated with respect, her regal bearing a stark contrast to the brutality around her.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Tars Tarkas' Observation",
+      "description": "Tars Tarkas observes the scene with a detached curiosity, his piercing gaze taking in every detail. He seems intrigued by the Red Martian culture and by your own unusual presence.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Red Martian Artifact",
+      "description": "A delicate glass sculpture, its intricate design a testament to Red Martian artistry. It has survived the looting, a fragile symbol of a fallen civilization.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Red Martian Book",
+      "description": "A book bound in leather, its pages filled with elegant script. It seems to be a work of history or philosophy, offering a glimpse into the Red Martian mind.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "Preparations for Departure",
+      "triggerPercent": 100,
+      "minScene": 4,
+      "description": "The Tharks begin preparations to leave the captured outpost, gathering their prisoners and spoils of war. They plan to return to their capital city, Warhoon.  This marks the beginning of a perilous journey, filled with uncertainty and danger. The Slave Caravan will be your next region.",
+      "newRegion": "The Slave Caravan"
+    }
+  ]
+}
+,
+{
+  "id": 10,
+  "name": "The Slave Caravan",
+  "isStartingRegion": false,
+  "description": "You are now part of a long, snaking slave caravan, stretching across the desolate Martian plains.  Red Martian prisoners, including Dejah Thoris, are shackled and bound, forced to march alongside captured thoats and plundered goods. The Thark guards are watchful and brutal, their eyes constantly scanning for any sign of rebellion.  The air is thick with dust and despair, but a glimmer of hope remains - the possibility of escape.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Your Position in the Caravan",
+      "description": "You are positioned near the middle of the caravan, surrounded by weary prisoners and watchful Thark guards. The pace is slow and grueling, the sun relentless.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Dejah Thoris' Proximity",
+      "description": "You find yourself near Dejah Thoris, her regal bearing still evident despite her captivity.  She whispers words of encouragement, her spirit unbroken.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Supply Wagon",
+      "description": "A heavily laden wagon, filled with plundered goods and provisions. It's guarded by a pair of Tharks, but might offer an opportunity to acquire useful items.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Tars Tarkas' Oversight",
+      "description": "Tars Tarkas rides alongside the caravan, his eyes scanning the prisoners and the horizon.  He seems alert and watchful, his mind focused on the journey ahead.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Shifting Sands",
+      "description": "The caravan enters a region of treacherous, shifting sands, the dunes stretching as far as the eye can see. The wind howls, whipping the sand into stinging clouds. This opens up travel to the Shifting Sands region if an escape is attempted here.",
+      "newRegion": "The Shifting Sands",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Warhoon in the Distance",
+      "description": "After days of arduous travel, the towering gates of Warhoon appear on the horizon, a grim silhouette against the setting sun. This opens up travel to The Gates of Warhoon.",
+      "newRegion": "The Gates of Warhoon",
+      "minScene": 6
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 8,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 9,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Thark Guard Brutality",
+      "description": "You witness a Thark guard mercilessly beating a Red Martian prisoner for a minor infraction. It's a chilling reminder of their cruelty and the precariousness of your own situation.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Fellow Prisoner's Story",
+      "description": "A fellow Red Martian prisoner shares their story, offering a glimpse into the culture and history of their people. They speak of their hopes for freedom and their fears for the future.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Sola's Warning",
+      "description": "Sola warns you to be careful, her words hinting at a growing danger within the caravan. She suggests that not all the Tharks are united in their purpose.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Tars Tarkas' Strategy",
+      "description": "Tars Tarkas reveals some of his plans for the future, his words suggesting a desire for power and a willingness to challenge the existing Thark hierarchy.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Red Martian Trinket",
+      "description": "A small, intricately carved piece of metal, a memento of a Red Martian's lost life. It depicts a symbol of hope or faith, a reminder of their enduring spirit.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Loose Shackle",
+      "description": "One of the shackles binding a Red Martian prisoner seems loose, offering a glimmer of hope for escape.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "Opportunity for Escape",
+      "triggerPercent": 30,
+      "minScene": 4,
+      "description": "A sudden sandstorm, a distraction among the guards, or a moment of carelessness creates an opportunity for escape.  Do you seize the chance, or do you bide your time, waiting for a better opportunity?",
+      "newRegion": null
+    }
+  ]
+}
+,
+{
+  "id": 11,
+  "name": "The Shifting Sands",
+  "isStartingRegion": false,
+  "description": "You've taken a desperate gamble, fleeing into the treacherous Shifting Sands.  Towering dunes of red sand stretch in every direction, constantly reshaped by the relentless wind.  The sun beats down mercilessly, and the air is dry and abrasive. Navigation is nearly impossible, and every step could lead you closer to safety or deeper into danger.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Crest of a Dune",
+      "description": "You struggle to the top of a towering dune, the wind whipping sand into your face.  From this vantage point, you can see for miles in every direction, but the landscape offers little hope - only endless sand.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Base of a Dune",
+      "description": "You seek shelter from the wind at the base of a dune, the sand cool and still in the shadow of the towering mound.  Tracks of creatures, both familiar and strange, crisscross the area.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Sunken Oasis",
+      "description": "A rare and precious find - a hidden oasis, its water and vegetation sheltered from the worst of the wind. It offers a brief respite, but it's also a place where others might seek refuge.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Lost Ruins",
+      "description": "You stumble upon the remnants of ancient structures, half-buried in the sand.  They hint at a civilization lost to time, swallowed by the relentless desert.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Signs of Pursuit",
+      "description": "You discover tracks in the sand, indicating that you are being pursued. The Tharks are relentless, and they will not give up easily.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Glimpse of Civilization",
+      "description": "On the distant horizon, you see a faint outline - the silhouette of buildings or perhaps a distant city. Hope surges within you, but the way forward is uncertain. This opens up travel to a new region, but the specifics will depend on the overall direction of your story.  Consult your oracle to determine where this leads.",
+      "newRegion": "Consult Oracle",
+      "minScene": 6
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 8,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 9,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Sandstorm",
+      "description": "A sudden sandstorm engulfs you, the wind howling and the sand stinging your skin. Visibility drops to zero, and you struggle to keep your bearings.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Desert Predator",
+      "description": "A large, sand-colored creature, adapted to the harsh desert environment, emerges from the dunes. It's hungry and aggressive, its eyes gleaming with primal instinct.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Thark Pursuit",
+      "description": "A group of Tharks on thoats rides through the dunes, their eyes scanning the shifting landscape for any sign of you.  They are relentless, their determination fueled by anger and a desire for revenge.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 7,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Empty Water Skin",
+      "description": "A discarded water skin, its leather cracked and dry. It's a stark reminder of the scarcity of water in this harsh environment.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Desert Plant",
+      "description": "A hardy desert plant, its roots burrowing deep into the sand.  It might offer a source of moisture or sustenance, if you know how to prepare it.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "Test of Survival",
+      "triggerPercent": 40,
+      "minScene": 3,
+      "description": "The harsh conditions of the Shifting Sands test you to your limits.  You must find water, food, and shelter, while avoiding the dangers of the desert and the pursuing Tharks.  This is a moment of truth, where your skills and resourcefulness will determine your fate.",
+      "newRegion": null
+    }
+  ]
+}
+,
+{
+  "id": 12,
+  "name": "The Gates of Warhoon",
+  "isStartingRegion": false,
+  "description": "The slave caravan has reached its destination: Warhoon, the capital city of the Tharks. The city is a sprawling complex of towering structures, built from red Martian brick and adorned with the bleached skulls of their enemies. The gates themselves are massive, reinforced with iron and guarded by fierce Thark warriors. The air is thick with the stench of blood and dust, and the sound of drums echoes from within the city walls.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Gate Entrance",
+      "description": "You pass through the massive gates, entering the heart of Warhoon. Thark warriors scrutinize you and the other prisoners, their eyes cold and unforgiving.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Main Thoroughfare",
+      "description": "You are herded along a wide thoroughfare, throngs of Tharks pushing and shoving. Buildings tower on either side, their architecture both imposing and alien.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Slave Pens",
+      "description": "You are thrown into a crowded, filthy slave pen, surrounded by other Red Martian prisoners.  The air is thick with despair and the stench of unwashed bodies.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Arena Entrance",
+      "description": "You catch a glimpse of the Warhoon Arena, its massive stone walls rising above the surrounding buildings. The roar of the crowd and the scent of blood waft from within.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Sola's Guidance",
+      "description": "Sola appears, offering a whispered warning and a glimmer of hope. She suggests a way to survive within Warhoon, and perhaps even a path to freedom. This opens up travel to Sola's Quarters.",
+      "newRegion": "Sola's Quarters",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "Random",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Thark Curiosity",
+      "description": "A group of Tharks gathers around you, their eyes filled with curiosity. They poke and prod, asking questions in their guttural language. Your strangeness both fascinates and repels them.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Red Martian Despair",
+      "description": "You witness the despair of the Red Martian prisoners, their spirits broken by their captivity. Some weep openly, while others remain silent, their eyes filled with a hollow resignation.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Tars Tarkas' Arrival",
+      "description": "Tars Tarkas arrives at the slave pens, his presence commanding immediate attention.  He seems to be assessing the new prisoners, his gaze lingering on you and Dejah Thoris.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Arena Announcement",
+      "description": "A Thark herald announces the upcoming gladiatorial games in the Warhoon Arena, his words eliciting cheers and excitement from the assembled crowd.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Thark City Map",
+      "description": "A crudely drawn map of Warhoon, scratched onto a piece of leather.  It shows the main streets, the arena, and other important locations.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Red Martian Keepsake",
+      "description": "A small, personal item dropped by a Red Martian prisoner. It could be a locket, a ring, or a small carving - a reminder of a life left behind.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "Selection for the Arena",
+      "triggerPercent": 100,
+      "minScene": 4,
+      "description": "You are selected to fight in the Warhoon Arena, a brutal spectacle where captives are pitted against each other or against deadly Martian beasts.  This is a test of your skills and courage, where survival is far from guaranteed. This opens up travel to The Warhoon Arena.",
+      "newRegion": "The Warhoon Arena"
+    }
+  ]
+}
+,
+{
+  "id": 13,
+  "name": "The Warhoon Arena",
+  "isStartingRegion": false,
+  "description": "The Warhoon Arena is a colossal amphitheater, its massive stone walls rising high above the surrounding city. The roar of the Thark crowd echoes within, a deafening cacophony of bloodlust and anticipation. The air is thick with the stench of sweat, dust, and the metallic tang of blood. You are thrust into this brutal spectacle, forced to fight for your survival and prove your worth to the Tharks.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Arena Floor",
+      "description": "The hard-packed sand of the arena floor is stained red with the blood of countless battles. You stand here, weapon in hand, facing your opponent. The crowd roars, their eyes hungry for violence.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Gladiator's Gate",
+      "description": "A massive iron gate, adorned with skulls, slams shut behind you as you enter the arena. There's no turning back now.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Jeddak's Platform",
+      "description": "High above the arena floor, Tal Hajus, the Jeddak of the Tharks, watches the spectacle from his ornate platform. He is surrounded by his advisors and favored warriors.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Holding Pens",
+      "description": "A row of cages, reeking of fear and animal musk, where the gladiators await their turn in the arena. The creatures within snarl and pace, their eyes gleaming with primal rage.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Victory",
+      "description": "Against all odds, you have survived the arena, your skill and courage earning the respect of the Tharks. This opens up travel to The Victor's Feast.",
+      "newRegion": "The Victor's Feast",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Defeat",
+      "description": "Wounded and exhausted, you are dragged from the arena floor.  The crowd jeers, their bloodlust unsatisfied. This opens up travel to The Holding Pens.",
+      "newRegion": "The Holding Pens",
+      "minScene": 6
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 8,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 9,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Gladiatorial Combat",
+      "description": "You are pitted against another gladiator, a fierce Thark warrior eager to prove his worth.  The clash of blades echoes through the arena as you fight for your life.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Beast Battle",
+      "description": "A massive Martian beast, its claws sharp and its teeth bared, is released into the arena. It charges towards you, its roar shaking the very foundations of the amphitheater.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Crowd's Bloodlust",
+      "description": "The Thark crowd roars its approval as the violence escalates, their bloodlust palpable. Their cheers and jeers influence the fight, adding to the pressure and chaos.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Tars Tarkas' Approval",
+      "description": "Tars Tarkas watches your fight with keen interest, his expression unreadable. A subtle nod or a flicker of approval in his eyes suggests that you have impressed him.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Gladiator's Weapon",
+      "description": "A crude but effective Thark sword, its blade sharpened to a razor's edge. It's your only defense in this brutal spectacle.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Beast Trophy",
+      "description": "A claw, tooth, or horn taken from a slain Martian beast. It's a gruesome reminder of the dangers of the arena and a symbol of your victory.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "Dejah Thoris' Plea",
+      "triggerPercent": 50,
+      "minScene": 3,
+      "description": "As you fight in the arena, Dejah Thoris appears on the Jeddak's platform. She pleads for your life, her words echoing through the amphitheater.  Her intervention could sway the crowd, earn you the Jeddak's favor, or anger your opponent.",
+      "newRegion": null
+    }
+  ]
+}
+,
+{
+  "id": 14,
+  "name": "Sola's Quarters",
+  "isStartingRegion": false,
+  "description": "Sola's quarters are a small, sparsely furnished chamber within a larger communal dwelling in Warhoon. It's a place of relative peace and quiet, a refuge from the harshness of Thark society. The walls are made of rough-hewn stone, decorated with a few simple tapestries depicting scenes of Martian wildlife.  A single window, covered with a thin animal hide, offers a glimpse of the city beyond.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Sleeping Mat",
+      "description": "A thick mat woven from reeds and furs serves as Sola's bed. It's surprisingly comfortable, offering a welcome respite after the long journey.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Cooking Hearth",
+      "description": "A small, smoky hearth provides warmth and a place for Sola to cook her simple meals. The scent of roasted meat and spices hangs in the air.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Window View",
+      "description": "You peer through the window, watching the activity in the streets below. Tharks go about their daily business, their lives a mixture of brutality and surprising normalcy.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Secret Compartment",
+      "description": "You discover a hidden compartment in the wall, concealed by a loose stone. It contains a few small items, seemingly precious to Sola.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Tars Tarkas' Visit",
+      "description": "Tars Tarkas arrives at Sola's quarters, his imposing presence filling the small chamber. He seeks a private conversation with you, his motives unclear.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Returning to the City",
+      "description": "You leave Sola's quarters, venturing back into the bustling streets of Warhoon. This opens travel to The Gates of Warhoon.",
+      "newRegion": "The Gates of Warhoon",
+      "minScene": 6
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 8,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 9,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Sola's Lessons",
+      "description": "Sola teaches you some basic Thark language and customs, hoping to help you survive in this brutal society. Her lessons offer a glimpse into their complex culture and beliefs.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Whispers of Rebellion",
+      "description": "Sola confides in you, revealing her dissatisfaction with the current Thark leadership and her hopes for a more just and compassionate society. She hints at a growing rebellion within Warhoon.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Sola's Fears",
+      "description": "Sola expresses her fears for Dejah Thoris, worried about the princess's safety in the hands of the Tharks. She seeks your help in protecting her.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Tars Tarkas' Proposal",
+      "description": "Tars Tarkas offers you a place in his plans for rebellion, seeing your unique skills and knowledge as valuable assets. He promises you power and a chance to reshape Thark society.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Thark Dictionary",
+      "description": "A small, leather-bound book containing a basic dictionary of the Thark language. It's a valuable tool for understanding their conversations and customs.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Rebel Symbol",
+      "description": "A small, carved piece of bone or metal, depicting a symbol associated with the Thark rebellion. It's a sign of hope for those who seek change.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Sola's Keepsake",
+      "description": "A small, personal item that Sola treasures, perhaps a memento of her family or a symbol of her hopes for the future.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 7,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "Sola's Plea for Help",
+      "triggerPercent": 60,
+      "minScene": 3,
+      "description": "Sola asks for your help in aiding the Thark rebellion, believing that you have the skills and knowledge to make a difference. She asks you to join their cause, promising a chance to fight for a better future for both Tharks and Red Martians.",
+      "newRegion": null
+    }
+  ]
+}
+,
+{
+  "id": 15,
+  "name": "The Victor's Feast",
+  "isStartingRegion": false,
+  "description": "You've proven yourself in the arena, surviving the brutal spectacle and earning a measure of respect from the Tharks. Now, you find yourself at the Victor's Feast, a celebration of blood and victory held in a grand hall within the Jeddak's palace.  The air is thick with the scent of roasted meat, strong drink, and the lingering aroma of blood. Thark warriors boast of their exploits, their laughter loud and boisterous. The hall is dimly lit by torches, casting long shadows that dance across the rough-hewn walls.  It's a scene of primal energy and unrestrained revelry.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Feasting Table",
+      "description": "A long, rough-hewn table groans under the weight of roasted meats, fruits, and strange Martian delicacies. Tharks tear at the food with their bare hands, their appetites as large as their egos.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Drinking Pit",
+      "description": "A large pit filled with a potent, fermented beverage bubbles and froths in the center of the hall. Tharks gather around it, dipping their cups and gourds into the intoxicating brew.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Storyteller's Corner",
+      "description": "An old Thark warrior, his body scarred and his voice raspy, holds court in a corner of the hall, recounting tales of past battles and legendary heroes.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Tars Tarkas' Table",
+      "description": "Tars Tarkas sits at a table slightly apart from the main throng, surrounded by his most trusted warriors. He watches you with a calculating gaze, assessing your potential value to his cause.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Jeddak's Dais",
+      "description": "Tal Hajus, the Jeddak of the Tharks, sits upon a raised dais, surveying the feast with a cold, imperious gaze. He is a figure of immense power, his every word and gesture commanding obedience.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Leaving the Feast",
+      "description": "As the feast winds down, you slip away from the drunken revelry, seeking a moment of peace and quiet. This opens up travel to The Gates of Warhoon.",
+      "newRegion": "The Gates of Warhoon",
+      "minScene": 6
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 8,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 9,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Drunken Brawl",
+      "description": "A fight erupts between two drunken Tharks, their words slurred and their blows clumsy but dangerous. The other Tharks watch with amusement, eager for a good spectacle.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Thark Boasting",
+      "description": "A group of Tharks surrounds you, bragging about their exploits in battle and on the hunt. They challenge you to match their tales, testing your courage and your ability to hold your own.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Tars Tarkas' Recruitment",
+      "description": "Tars Tarkas invites you to join him at his table, offering you a place among his warriors. He speaks of his ambitions for power and his plans to challenge the Jeddak.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Jeddak's Favor",
+      "description": "Tal Hajus notices you from his dais, his gaze lingering on you for a moment. He summons you to his presence, his intentions unclear.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Thark Drinking Horn",
+      "description": "A large, ornately carved horn, filled with the potent Thark beverage. It's a symbol of their warrior culture and their love of strong drink.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Beast Skull",
+      "description": "The skull of a fearsome Martian beast, its empty sockets staring into the void. It serves as a grim decoration and a reminder of the Tharks' mastery over the wild.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "Political Intrigue",
+      "triggerPercent": 40,
+      "minScene": 3,
+      "description": "You overhear whispers of political intrigue among the Tharks, rumors of plots and alliances forming in the shadows. It's clear that Tal Hajus' rule is not unchallenged, and that ambitious warriors like Tars Tarkas are vying for power. This opens up travel to The Jeddak's War Council.",
+      "newRegion": "The Jeddak's War Council"
+    }
+  ]
+}
+,
+{
+  "id": 16,
+  "name": "The Jeddak's War Council",
+  "isStartingRegion": false,
+  "description": "You find yourself amidst the Jeddak's War Council, a gathering of the most powerful Thark chieftains and warriors. The atmosphere is tense, a mixture of respect for Tal Hajus' authority and simmering ambition among his rivals. The council chamber is a large, circular room, its walls adorned with trophies of past battles. A massive table of polished stone dominates the center of the room, surrounded by rough-hewn chairs.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Jeddak's Seat",
+      "description": "Tal Hajus sits upon a raised seat at the head of the table, his gaze sweeping over the assembled warriors. His presence commands respect and fear.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Tars Tarkas' Position",
+      "description": "Tars Tarkas sits near the Jeddak, his posture confident and his eyes alert. He seems eager to assert his own influence within the council.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "War Map",
+      "description": "A large map, etched onto a slab of stone, depicts the surrounding territories and the positions of rival Thark hordes. Strategists point and argue, their voices echoing through the chamber.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Council Chamber Entrance",
+      "description": "Two massive Thark warriors guard the entrance to the council chamber, their weapons at the ready. Their faces are impassive, their loyalty to the Jeddak unquestioned.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Secret Listener",
+      "description": "You find a hidden alcove or passageway, allowing you to overhear the council's deliberations without being seen.  The information you glean could be crucial to your survival or to your plans for escape.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Council Adjourned",
+      "description": "The council meeting concludes, the Thark chieftains dispersing to their own quarters. This opens travel back to The Gates of Warhoon.",
+      "newRegion": "The Gates of Warhoon",
+      "minScene": 6
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 8,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 9,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Tal Hajus' Decree",
+      "description": "Tal Hajus issues a decree, his voice booming through the chamber. His words carry the weight of law, and his commands are obeyed without question.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Tars Tarkas' Challenge",
+      "description": "Tars Tarkas challenges the Jeddak's authority, questioning his decisions and proposing an alternate course of action. The tension in the room thickens as the two powerful warriors lock horns.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Council Debate",
+      "description": "A heated debate erupts among the council members, their voices raised in argument. They argue over strategy, resources, and the best way to secure the future of the Thark horde.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Unexpected Summons",
+      "description": "You are unexpectedly summoned to speak before the council.  Perhaps Tal Hajus is curious about your strange origins, or perhaps Tars Tarkas sees an opportunity to exploit your knowledge.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Thark War Banner",
+      "description": "A massive banner, depicting a fearsome Thark deity or a symbol of their martial prowess, hangs from the chamber walls. It's a reminder of their history of conquest and bloodshed.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Ancient Artifact",
+      "description": "A strange, alien artifact, its purpose unknown, sits on the council table. It's a relic of a past civilization, perhaps a source of power or a key to forgotten knowledge.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "Seeds of Rebellion",
+      "triggerPercent": 50,
+      "minScene": 3,
+      "description": "You witness a growing rift between Tal Hajus and Tars Tarkas, their rivalry threatening to erupt into open conflict. This could be your chance to sow further discord, aligning yourself with one side or the other - or perhaps playing both sides against each other.",
+      "newRegion": null
+    }
+  ]
+}
+,
+{
+  "id": 17,
+  "name": "The Undercity",
+  "isStartingRegion": false,
+  "description": "You've escaped into the labyrinthine depths of Warhoon's undercity, a network of ancient tunnels and forgotten chambers beneath the bustling city above. The air is stale and damp, heavy with the scent of dust and decay.  The only light comes from the occasional glowing fungus clinging to the rough-hewn walls, casting flickering shadows that dance and shift. It's a disorienting and dangerous place, but it offers a chance to escape the clutches of Tal Hajus and his warriors.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Crumbling Tunnel",
+      "description": "The tunnel walls are crumbling, the ancient Martian brick cracked and loose. You must tread carefully, lest the passage collapse around you.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Underground Stream",
+      "description": "A subterranean stream flows through the darkness, its waters cold and clear. It might offer a source of drinking water, but it could also be home to unseen dangers.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Hidden Chamber",
+      "description": "You discover a hidden chamber, its entrance concealed behind a fallen rock or a crumbling wall.  The air within is stale, but it offers a momentary refuge from the dangers of the tunnels.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Ancient Catacombs",
+      "description": "You stumble upon a network of ancient catacombs, their walls lined with the bones of long-dead Martians. The silence here is profound, broken only by the drip of water and the echo of your own footsteps. This opens up travel to The Ancient Catacombs.",
+      "newRegion": "The Ancient Catacombs",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Thoat Pens Access",
+      "description": "The tunnel leads upwards, towards the surface. You hear the guttural calls of thoats, suggesting that you are near the city's thoat pens. This opens up travel to The Thoat Pens.",
+      "newRegion": "The Thoat Pens",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "Random",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Cave-In",
+      "description": "A tremor shakes the tunnels, causing a partial cave-in. You must scramble to avoid being trapped or crushed by falling debris.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Underground Creature",
+      "description": "A pale, blind creature, adapted to the darkness of the undercity, scuttles across your path. It's either harmless or hostile - only your instincts can tell.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Thark Patrol",
+      "description": "A group of Tharks, armed with torches and weapons, patrols the tunnels. They are searching for escaped prisoners, their eyes sharp and their movements silent.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Lost Soul",
+      "description": "You encounter a Red Martian prisoner, lost and disoriented in the darkness. They are terrified and desperate, their hope dwindling with each passing moment.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Broken Tool",
+      "description": "A rusty pickaxe, its handle broken and its head dull. It's a relic of past mining efforts, abandoned in the darkness.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Glowing Fungus",
+      "description": "A cluster of bioluminescent fungi, emitting a soft, eerie light. It illuminates a small area, revealing the rough-hewn walls and the damp floor.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Ancient Coin",
+      "description": "A tarnished coin, bearing the image of a long-dead Martian ruler. It's a reminder of a civilization lost to time, swallowed by the sands of Barsoom.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 7,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "Whispers in the Dark",
+      "triggerPercent": 40,
+      "minScene": 3,
+      "description": "You hear whispers in the darkness, voices speaking in hushed tones. They seem to be coming from behind the walls, their words indistinct but filled with urgency and fear.  Are they other prisoners plotting their own escape, or is there something more sinister lurking in the shadows?",
+      "newRegion": null
+    }
+  ]
+}
+,
+{
+  "id": 18,
+  "name": "The Thoat Pens",
+  "isStartingRegion": false,
+  "description": "You emerge from the darkness of the undercity into the relative light of the Warhoon thoat pens. It's a chaotic scene, filled with the guttural calls of the massive six-legged creatures and the shouts of the Thark handlers. The air is thick with the stench of animal musk and dust. Thoats of all sizes and temperaments are penned here, their powerful bodies restless and their eyes watchful. Escape from Warhoon hinges on securing a mount from this chaotic place.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Central Corral",
+      "description": "A large, open corral where the majority of the thoats are penned. They mill about restlessly, their massive bodies jostling each other. The ground is churned and dusty.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Taming Pen",
+      "description": "A smaller, enclosed pen where Tharks attempt to tame and train newly captured thoats. It's a dangerous job, requiring skill and courage. The air crackles with tension.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Saddle Room",
+      "description": "A rough-hewn room where saddles, harnesses, and other thoat-riding gear are stored.  It's dimly lit and dusty, the air thick with the scent of leather and animal musk.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Handler's Watchtower",
+      "description": "A tall, wooden watchtower overlooks the thoat pens, offering a commanding view of the entire area. Thark handlers keep watch from here, their eyes alert for any sign of trouble.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Escape Route",
+      "description": "You find a gap in the outer wall of the thoat pens, or perhaps a poorly guarded gate.  It's a risky chance for escape, but it's your best hope for freedom. This will take you beyond the walls of Warhoon, marking the end of this part of the adventure.",
+      "newRegion": "Beyond Warhoon",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "Random",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Aggressive Thoat",
+      "description": "A particularly large and aggressive thoat charges at you, its tusks bared and its eyes wild. You must react quickly to avoid being trampled or gored.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Thark Handler",
+      "description": "A skilled Thark handler, his body scarred and weathered, observes your interest in the thoats. He might offer advice, assistance, or a challenge, depending on his mood and your approach.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Sola's Help",
+      "description": "Sola appears, offering to help you secure a thoat and escape. She knows the creatures well and can guide you towards a suitable mount.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Tars Tarkas' Intervention",
+      "description": "Tars Tarkas arrives at the pens, his presence commanding immediate attention. He might aid your escape, hinder it, or use it as leverage for his own purposes.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Thoat Harness",
+      "description": "A sturdy leather harness, designed to control a thoat. It's heavy and cumbersome, but essential for riding the powerful creatures.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Thoat Goad",
+      "description": "A sharp, pointed goad, used to urge a thoat forward. It's a cruel but effective tool, reminding you of the Tharks' harsh methods.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "Choice of Mounts",
+      "triggerPercent": 100,
+      "minScene": 3,
+      "description": "You must choose a thoat for your escape, a decision that could determine your fate.  Will you choose a powerful but unruly beast, a smaller but more agile mount, or perhaps a thoat with a particular bond to Sola or Tars Tarkas?",
+      "newRegion": null
+    }
+  ]
+}
+,
+{
+  "id": 19,
+  "name": "The Ancient Catacombs",
+  "isStartingRegion": false,
+  "description": "You've stumbled into a vast network of ancient catacombs, a silent city of the dead buried deep beneath Warhoon. The air is cold and still, heavy with the scent of dust and decay.  Eerie silence hangs in the air, broken only by the drip of water and the echo of your own footsteps. The passageways are dimly lit by the occasional patch of glowing fungus, casting long shadows that dance and distort the shapes around you. The walls are lined with countless tombs, some ornately carved, others simple and weathered by time.  The remains of a long-dead civilization lie here, their secrets buried with them.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Main Burial Chamber",
+      "description": "A large, cavernous chamber, its walls lined with elaborate tombs. The air is thick with the dust of ages, and the silence is profound.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Ossuary",
+      "description": "A smaller chamber, piled high with the bones of countless Martians. The air is heavy with the scent of death, and the sight of the jumbled remains is both fascinating and disturbing.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Ritual Chamber",
+      "description": "A chamber decorated with strange symbols and faded murals, suggesting ancient rituals and ceremonies. The air here feels charged with a forgotten power.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Collapsed Passage",
+      "description": "A section of the catacombs has collapsed, blocking the way forward. You must find an alternate route or risk being trapped in the darkness.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Exit to Undercity",
+      "description": "You find a passage leading back towards the Warhoon Undercity, offering a potential escape route. This opens travel back to The Undercity.",
+      "newRegion": "The Undercity",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "Random",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Uneasy Feeling",
+      "description": "A sense of unease washes over you, a feeling of being watched or followed. The silence seems to press in, and the shadows seem to writhe and twist.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Guardian Spirit",
+      "description": "A ghostly apparition, perhaps the spirit of a long-dead Martian, appears before you. It could be a benevolent guide or a vengeful guardian, depending on its nature and your actions.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Thark Grave Robbers",
+      "description": "A group of Tharks, seeking to plunder the ancient tombs, enters the catacombs. They are armed and dangerous, their greed outweighing their fear of the dead.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 7,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Ancient Sarcophagus",
+      "description": "An ornately carved sarcophagus, its surface covered with intricate designs and faded inscriptions. It might contain the remains of a powerful Martian ruler or priest.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Ritual Amulet",
+      "description": "A small amulet, made of bone or metal, depicting a strange symbol or deity. It seems to have been used in ancient rituals, its purpose now lost to time.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "Whispers of the Past",
+      "triggerPercent": 30,
+      "minScene": 3,
+      "description": "As you explore the catacombs, you sense a connection to the past, a feeling that the spirits of the dead are watching you. Perhaps you hear whispers, see visions, or discover a hidden inscription that reveals a secret of this ancient civilization.",
+      "newRegion": null
+    }
+  ]
+}
+,
+{
+  "id": 20,
+  "name": "Beyond Warhoon",
+  "isStartingRegion": false,
+  "description": "You've escaped the clutches of Warhoon, riding a thoat across the vast Martian plains. The city shrinks behind you, a distant silhouette against the setting sun. The air is fresh and clean, a welcome change from the dust and stench of the Thark capital. Freedom is exhilarating, but the journey ahead is uncertain. Where will you go? What dangers await you in this alien world?",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Open Plain",
+      "description": "The thoat carries you across a vast, open plain, the red sand stretching to the horizon.  The twin moons of Barsoom hang in the sky, casting long shadows that dance and shift.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Rocky Outcropping",
+      "description": "You stop to rest at a rocky outcropping, seeking shelter from the wind and a vantage point to survey the surrounding landscape. The rocks are weathered and ancient, their surfaces etched with strange symbols and patterns.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Dried Riverbed",
+      "description": "You follow a dried riverbed, hoping to find a source of water or perhaps signs of other life. The ground is cracked and barren, but the occasional hardy plant clings to life.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Distant Mountains",
+      "description": "A range of mountains, their peaks shrouded in mist, looms on the horizon.  They promise a change of scenery and perhaps a refuge from your pursuers, but they also hold unknown dangers.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Unexpected Oasis",
+      "description": "A rare and precious find - an oasis, its water sparkling in the sunlight and its vegetation lush and green.  It offers a chance to rest, replenish your supplies, and perhaps encounter other travelers.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "Random",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Martian Wildlife",
+      "description": "You encounter a herd of thoats, a pack of fierce Martian predators, or perhaps a flock of strange, bird-like creatures. The encounter could be peaceful or dangerous, depending on your actions and the nature of the creatures.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Lost Traveler",
+      "description": "You encounter a lone traveler, perhaps a Red Martian fugitive or a wandering Thark. Their story could offer valuable information, guidance, or perhaps a warning.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Sola's Knowledge",
+      "description": "Sola, if she is with you, shares her knowledge of the Martian landscape and its dangers. Her guidance could prove invaluable as you navigate the unfamiliar terrain.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Tars Tarkas' Ambitions",
+      "description": "Tars Tarkas, if he is with you, reveals more of his plans for the future. He speaks of his desire to unite the Thark hordes under his banner and challenge the power of Helium, the Red Martian city.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Martian Plant",
+      "description": "You discover a strange Martian plant, its leaves fleshy and its flowers a vibrant shade of blue.  It might be edible, poisonous, or perhaps possess unknown properties.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Ancient Artifact",
+      "description": "You find a small artifact, half-buried in the sand.  It could be a piece of pottery, a carved stone, or a fragment of metal - a relic of a past civilization.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "The Road Ahead",
+      "triggerPercent": 100,
+      "minScene": 4,
+      "description": "You have escaped Warhoon, but your journey is far from over. You must decide where to go next, what goals to pursue, and how to navigate the dangers of Barsoom. This is a moment of choice, where your decisions will shape the course of your adventure. This marks the end of the first part of your Barsoomian adventure.  You have survived the trials of a dying world, faced down savage warriors, and perhaps won the heart of a princess. But your adventures are far from over. The fate of Dejah Thoris, and perhaps all of Barsoom, hangs in the balance.",
+      "resolutionPossible": true
+    }
+  ]
+}
+,
+{
+  "id": 21,
+  "name": "The Gardens of the Palace",
+  "isStartingRegion": false,
+  "description": "You've found a secret sanctuary within the captured palace - a hidden garden, a tranquil oasis amidst the chaos and brutality of the Thark occupation. The air is sweet with the scent of blooming flowers and the gentle murmur of a fountain. Sunlight filters through the leaves of exotic trees, casting dappled shadows on the mossy paths. It's a place of peace and beauty, a reminder of the gentler side of Martian culture.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Flowering Arbor",
+      "description": "A graceful arbor, covered in fragrant vines and colorful blossoms, offers a shady retreat. The air here is alive with the buzzing of insects and the sweet songs of Martian birds.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Reflecting Pool",
+      "description": "A still, clear pool reflects the sky and the surrounding greenery. The water is cool and inviting, tempting you to rest and refresh yourself.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Statuary Garden",
+      "description": "A collection of elegant statues, depicting Red Martian nobles and mythological figures, stands amidst the flowers and trees.  They seem to gaze upon you with a silent serenity.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Hidden Grotto",
+      "description": "A small, hidden grotto, concealed behind a waterfall or a curtain of vines, offers a secret place of contemplation. The air here is cool and damp, and the sound of dripping water echoes through the darkness.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Palace Entrance",
+      "description": "A discreet path leads back to the main palace, allowing you to return to the heart of the Thark occupation. This opens travel back to The Captured Palace.",
+      "newRegion": "The Captured Palace",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "Random",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Dejah Thoris' Solitude",
+      "description": "You find Dejah Thoris seeking solace amidst the beauty of the garden. She seems weary but her spirit remains unbroken. This is a chance for a private conversation, away from the prying eyes of the Tharks.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Thark Guard Patrol",
+      "description": "A pair of Thark warriors patrols the garden, their eyes scanning for any sign of trouble. They seem out of place amidst the tranquility, their presence a reminder of the ongoing occupation.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Martian Gardener",
+      "description": "An old Red Martian, his face lined with years of toil, tends to the plants with a gentle touch. He might share his knowledge of the garden's history and secrets.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Sola's Reflections",
+      "description": "Sola joins you in the garden, seeking a moment of peace. She reflects on the events of the raid and her hopes for the future, perhaps revealing her own vulnerabilities and dreams.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Exotic Flower",
+      "description": "A single, exotic flower, its petals a vibrant shade of red or purple, blooms amidst the greenery. Its scent is intoxicating, and its beauty is a stark contrast to the harshness of the surrounding world.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Ancient Inscription",
+      "description": "A small inscription, carved into the base of a statue or the wall of the grotto, hints at the history of the garden and its significance to the Red Martian people.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "A Moment of Peace",
+      "triggerPercent": 60,
+      "minScene": 3,
+      "description": "The tranquility of the garden offers a brief respite from the chaos and brutality of Warhoon.  You find a moment of peace, a chance to reflect on your experiences and gather your strength for the challenges ahead. This could be a turning point in your relationship with Dejah Thoris or Sola, a moment of shared vulnerability and connection.",
+      "newRegion": null
+    }
+  ]
+}
+,
+{
+  "id": 22,
+  "name": "The Grove of Issus",
+  "isStartingRegion": false,
+  "description": "Sola has led you to a secret place within Warhoon: the Grove of Issus, a sacred and forbidden place for the Tharks.  It's a hidden oasis within the city walls, a small grove of ancient trees with gnarled branches and thick foliage. The air is surprisingly cool and still here, a welcome respite from the heat and dust of Warhoon.  Sunlight filters through the leaves, creating a dappled pattern on the mossy ground. A sense of mystery and ancient power hangs over the grove.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Ancient Tree",
+      "description": "A massive, ancient tree dominates the center of the grove, its branches reaching towards the sky like gnarled fingers. Its bark is thick and rough, etched with strange symbols and patterns.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Whispering Spring",
+      "description": "A spring bubbles up from the ground, its waters crystal clear and surprisingly cold.  The sound of the water creates a soothing melody, adding to the tranquility of the grove.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Stone Altar",
+      "description": "A rough-hewn altar, made of unadorned stone, stands beneath the ancient tree. It's stained with the blood of past sacrifices, a testament to the Tharks' primal beliefs.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Hidden Path",
+      "description": "A narrow, overgrown path leads deeper into the grove, winding through the trees and disappearing into the shadows.  It suggests a hidden destination, a place of secrets and ancient power.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Sola's Knowledge",
+      "description": "Sola shares her knowledge of the Grove of Issus, revealing its significance to the Tharks and its connection to their ancient history and beliefs. She might also warn you of the dangers associated with this sacred place.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Returning to Warhoon",
+      "description": "You leave the sanctuary of the Grove of Issus, returning to the bustling streets of Warhoon. This opens travel back to The Gates of Warhoon.",
+      "newRegion": "The Gates of Warhoon",
+      "minScene": 6
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 8,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 9,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Spiritual Presence",
+      "description": "You sense a powerful spiritual presence within the grove, a feeling of ancient energy and watchful eyes. The air seems to hum with a faint vibration, and the shadows seem to dance and twist with a life of their own.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Thark Ritual",
+      "description": "You stumble upon a group of Tharks performing a secret ritual within the grove. Their chanting echoes through the trees, and the flickering light of their torches casts eerie shadows on the ancient tree.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Forbidden Knowledge",
+      "description": "You discover a hidden inscription or a secret symbol within the grove, revealing a piece of forbidden knowledge about the Tharks' past or their religious beliefs.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Tars Tarkas' Reverence",
+      "description": "You encounter Tars Tarkas within the grove, his usual gruff demeanor softened by a sense of reverence.  He might reveal a surprising connection to this sacred place or share his own beliefs about the Thark religion.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Sacred Fruit",
+      "description": "You find a strange fruit, growing on one of the ancient trees. It's said to possess mystical properties, granting visions or enhancing strength.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Ritual Knife",
+      "description": "A ceremonial knife, its blade made of obsidian or bone, lies abandoned near the stone altar. It was likely used in Thark rituals, its purpose both sacred and sinister.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "Test of Faith",
+      "triggerPercent": 30,
+      "minScene": 3,
+      "description": "You are faced with a challenge that tests your beliefs and your willingness to embrace the Thark ways. Perhaps you must participate in a ritual, make a difficult choice, or prove your loyalty to Sola or Tars Tarkas.",
+      "newRegion": null
+    }
+  ]
+}
+,
+{
+  "id": 23,
+  "name": "The Den of Ill Repute",
+  "isStartingRegion": false,
+  "description": "You find yourself in a dimly lit, smoke-filled den, a haven for Warhoon's less reputable inhabitants.  Whispers and laughter mingle with the clatter of dice and the clinking of glasses. The air is thick with the scent of cheap alcohol, exotic spices, and illicit substances. This is a place of shadows and secrets, where fortunes are won and lost, and where information flows freely - for a price.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Gambling Table",
+      "description": "A rough-hewn table, scarred with knife marks and stained with spilled drinks, is surrounded by a motley crew of gamblers.  The stakes are high, and the air crackles with tension and greed.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Dark Corner Booth",
+      "description": "A shadowy booth, tucked away in a dimly lit corner, offers a measure of privacy for clandestine meetings and whispered deals.  The air here is thick with intrigue.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Bar",
+      "description": "A rough-looking bartender, his face scarred and his eyes wary, presides over a bar stocked with a variety of potent drinks, both local and imported. He's seen it all, and he's not afraid to tell you what he knows - for a price.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Back Room",
+      "description": "A door, guarded by a burly Thark, leads to a back room. The sounds of muffled voices and the clinking of coins suggest that something more illicit is happening behind closed doors.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Hidden Exit",
+      "description": "You discover a hidden exit, a secret passage or a back alley that leads away from the den. It's a discreet way to escape unnoticed.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Leaving the Den",
+      "description": "You push your way through the crowd, leaving the smoke and shadows of the den behind. This opens travel back to The Gates of Warhoon.",
+      "newRegion": "The Gates of Warhoon",
+      "minScene": 6
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 8,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 9,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Shady Characters",
+      "description": "You encounter a group of shady characters, their eyes shifty and their hands never far from their weapons.  They could be thieves, smugglers, or perhaps agents of a rival Thark chieftain.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Information Broker",
+      "description": "You meet a mysterious figure, known for their network of informants and their ability to acquire any information - for the right price. They might offer you valuable insights into the political machinations of Warhoon or the whereabouts of Dejah Thoris.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Rebellious Whispers",
+      "description": "You overhear whispers of rebellion, hushed conversations about plots to overthrow Tal Hajus.  The discontent with the Jeddak's rule seems to be spreading, even to the darkest corners of Warhoon.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Tars Tarkas' Agent",
+      "description": "An agent of Tars Tarkas approaches you, seeking your allegiance. They offer you a place in the growing rebellion and a chance to shape the future of the Thark horde.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Stolen Goods",
+      "description": "You spot a collection of stolen goods, perhaps Red Martian artifacts, weapons, or other valuables, being discreetly traded in a dark corner.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Hidden Message",
+      "description": "You intercept a coded message, perhaps a note passed between conspirators or a secret symbol etched onto a drinking cup. It hints at hidden agendas and dangerous plots.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "A Dangerous Gamble",
+      "triggerPercent": 40,
+      "minScene": 3,
+      "description": "The Den of Ill Repute offers opportunities for both information and danger. You might be tempted to gamble, make a deal with a shady character, or pry into secrets that are best left buried. This could lead to valuable insights, a stroke of good fortune, or a dangerous entanglement.",
+      "newRegion": null
+    }
+  ]
+}
+,
+{
+  "id": 24,
+  "name": "The Holding Pens",
+  "isStartingRegion": false,
+  "description": "You find yourself imprisoned in the Warhoon holding pens, a grim and desolate place beneath the arena. The air is thick with the stench of fear, sweat, and animal musk. The sound of roaring beasts and the clang of metal bars echoes through the dimly lit corridors.  Other prisoners, both Red Martian and creatures from across Barsoom, huddle in their cages, their eyes filled with despair.  Escape seems impossible, but hope flickers - a chance to defy your captors and regain your freedom.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Your Cage",
+      "description": "Your cage is cramped and filthy, its iron bars cold and unforgiving. The ground is covered in straw and animal droppings. It's a humiliating and demoralizing place, but you must find a way to survive.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Adjacent Cage",
+      "description": "You hear the sounds of movement and muffled voices from an adjacent cage. It could be a fellow Red Martian prisoner, a captured Thark warrior, or perhaps a creature unlike any you've ever seen before.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Guard Post",
+      "description": "A pair of Thark guards, their eyes watchful and their weapons at the ready, stands watch over the holding pens.  They are brutal and unforgiving, their presence a constant reminder of your captivity.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Feeding Chute",
+      "description": "A small, barred opening in the wall serves as a feeding chute, through which your meager rations are delivered.  It might offer a potential escape route, but it's a tight squeeze and heavily guarded.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Forgotten Tunnel",
+      "description": "You discover a hidden passage, a forgotten tunnel or a crumbling section of wall that leads deeper into the undercity.  It's a dangerous gamble, but it might offer a chance for escape. This opens travel back to The Undercity.",
+      "newRegion": "The Undercity",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "Random",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Fellow Prisoner",
+      "description": "A fellow prisoner, perhaps a Red Martian with a story to tell or a captured Thark with a grudge against Tal Hajus, reaches out to you.  They might offer companionship, information, or a chance to work together.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Guard Brutality",
+      "description": "You witness a display of casual brutality as a Thark guard mistreats a prisoner or taunts a caged beast.  It's a chilling reminder of the cruelty of your captors.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Sola's Visit",
+      "description": "Sola risks her own safety to visit you in the holding pens, bringing news from the outside and perhaps a glimmer of hope for escape.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Tars Tarkas' Offer",
+      "description": "Tars Tarkas appears at your cage, offering you a deal. He might propose an alliance, a chance for escape, or a test of your loyalty.",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Rusty Shiv",
+      "description": "You find a rusty shiv, fashioned from a broken piece of metal, hidden beneath the straw in your cage.  It's a crude but potentially useful weapon.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Loose Bar",
+      "description": "One of the bars in your cage seems loose, perhaps weakened by rust or a previous escape attempt. It might offer a way out, if you can find a way to exploit it.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "Desperate Measures",
+      "triggerPercent": 50,
+      "minScene": 3,
+      "description": "Confined to the holding pens, you must resort to desperate measures to survive and perhaps even escape.  This could involve a risky alliance, a daring escape attempt, or a confrontation with a guard. Your choices here will have significant consequences.",
+      "newRegion": null
+    }
+  ]
+}
+,
+{
+  "id": 25,
+  "name": "The Ancient Observatory",
+  "isStartingRegion": false,
+  "description": "You've discovered the remnants of an ancient Martian observatory, a silent testament to a lost civilization's fascination with the stars. The structure is a crumbling ruin, its once-polished metal surfaces now pitted and rusted. The air is dry and still, carrying the faint scent of dust and ozone. Sunlight filters through gaps in the shattered dome, illuminating fragments of intricate machinery and strange symbols etched into the walls. It's a place of mystery and wonder, hinting at a time when Martian civilization reached for the heavens.",
+  "locations": [
+    {
+      "id": 1,
+      "name": "Observation Deck",
+      "description": "You stand on the shattered remains of the observation deck, gazing up at the Martian sky through a gaping hole in the dome. The stars are brilliant, their light undimmed by any atmospheric haze.",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Telescope Chamber",
+      "description": "The massive telescope, once a marvel of Martian engineering, now lies in ruins. Fragments of its lenses and mirrors litter the floor, reflecting distorted images of the sky.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Control Room",
+      "description": "The control room, once filled with intricate instruments and glowing screens, is now a jumble of wires and broken machinery. A faint hum, a remnant of ancient power, still emanates from the central console.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Hidden Vault",
+      "description": "You discover a hidden vault, its entrance concealed behind a fallen panel or a secret passage. The air within is stale and musty, suggesting that it has been sealed for centuries.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "Exterior Entrance",
+      "description": "You find a crumbling staircase leading down from the observatory, offering a path back to the Martian surface and the Whispering Forest. This opens travel back to The Whispering Forest.",
+      "newRegion": "The Whispering Forest",
+      "minScene": 5
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 7,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "Random",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "encounters": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Strange Energy",
+      "description": "You feel a surge of strange energy, a tingling sensation that runs through your body. The air crackles with a faint static charge, and the hair on your arms stands on end. It seems to emanate from the ancient machinery.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Ghostly Apparition",
+      "description": "A ghostly apparition, perhaps the spirit of a long-dead astronomer, appears before you. It might offer a glimpse into the past, a warning about the future, or a challenge to your understanding of the universe.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "Thark Scavengers",
+      "description": "A group of Tharks, seeking valuable scrap metal or perhaps driven by a superstitious fear of the place, enters the observatory. They are wary and unpredictable, their motives unclear.",
+      "minScene": 4
+    },
+    {
+      "id": 5,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 6,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 7,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 8,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 9,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 11,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    }
+  ],
+  "objects": [
+    {
+      "id": 1,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 2,
+      "name": "Star Chart",
+      "description": "A fragmented star chart, its symbols faded but still recognizable, depicts the constellations of the Martian sky.  It hints at the ancient astronomers' understanding of the cosmos.",
+      "minScene": 2
+    },
+    {
+      "id": 3,
+      "name": "Strange Device",
+      "description": "You find a strange device, made of an unknown metal and etched with unfamiliar symbols. Its purpose is unclear, but it might be a tool for navigation, communication, or perhaps something more esoteric.",
+      "minScene": 3
+    },
+    {
+      "id": 4,
+      "name": "None",
+      "description": "",
+      "minScene": 1
+    },
+    {
+      "id": 5,
+      "name": "Expected",
+      "description": "",
+      "minScene": 2
+    },
+    {
+      "id": 6,
+      "name": "None",
+      "description": "",
+      "minScene": 3
+    },
+    {
+      "id": 7,
+      "name": "Random",
+      "description": "",
+      "minScene": 4
+    },
+    {
+      "id": 8,
+      "name": "None",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 9,
+      "name": "Expected",
+      "description": "",
+      "minScene": 5
+    },
+    {
+      "id": 10,
+      "name": "None",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 11,
+      "name": "Expected",
+      "description": "",
+      "minScene": 6
+    },
+    {
+      "id": 12,
+      "name": "Random",
+      "description": "",
+      "minScene": 7
+    }
+  ],
+  "keyedScenes": [
+    {
+      "id": 1,
+      "name": "Whispers of the Stars",
+      "triggerPercent": 40,
+      "minScene": 3,
+      "description": "As you stand beneath the Martian sky, you feel a connection to the vastness of the cosmos, a sense of wonder and awe.  Perhaps you receive a vision, hear a whisper from the stars, or discover a hidden message that reveals a secret of the universe.",
+      "newRegion": null
+    }
+  ]
+}
+],
+  "resolution": "Your escape from Warhoon marks the end of the beginning. You have survived the trials of a dying world, faced down savage warriors, and touched the heart of a princess.  But your adventures are far from over.  The fate of Dejah Thoris, and perhaps all of Barsoom, hangs in the balance.   Prepare for the challenges that await in Part 2:  The Princess of Helium!" 
+}

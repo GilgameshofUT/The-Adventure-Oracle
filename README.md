@@ -20,6 +20,8 @@ One is a space opera fit for a crew of explorers from a 1960s TV show.
 
 The other is a horror murder mystery "Tockley Manor" by Tana Pigeon of [https://WordMillGames.com](https://WordMillGames.com) published in Mythic Magazine Volume 11\. Used with permission.
 
+**Update**: I have added an incredibly huge new adventure based on the first 15 chapters of the public domain book *A Princess of Mars* staring the great pulp hero John Carter of Mars. As well as instructions for how I created it and how you can create your own based on modules you own or obtain for free on the internet. If there is interest I may add some more modules based on public domain stories. Feel free to let me know if there is a particular adventure that interests you. Public domain works can be found at Project Gutenberg.  
+
 # So What does it do?
 
 I would encourage you to start with buying Mythic Magazine vol 11 from DriveThroughRPG and reading Tana's excellent article where she explains this system in depth. The goal is to play written modules solo. What she produces there might be more described as writing modules for solo play as an existing module will need a bit of work to convert it to this system but the end result is pretty nifty. It combines her excellent Mythic GM Emulator with her Location Crafter and uses a series of tables to capture some of the creative feel of solo RPG but also the planned structure of a written module.
@@ -101,4 +103,8 @@ Root level elements:
   KeyedScene properties: These have two special properties in addition to the above to control when they fire. You may set both values but the event will fire only once, with whichever happens first.
 
   - **triggerPercent**: After reaching the minScene value, the trigger will have this percentage of likelihood to fire.  
-  - **triggerNumber**: When the currentScene reaches this value, this will always fire. Useful if you want to have strong control over an event happening. 
+  - **triggerNumber**: When the currentScene reaches this value, this will always fire. Useful if you want to have strong control over an event happening.
+ 
+  # OK So how do I convert my favorite prewritten adventure into a module for this system
+
+  I have full instructions you can find in the "Making an Adventure" folder. Some minor editing of the prompts and some cut and paste and you can have AI turn any text based advenuture module into correct JSON for this program.
